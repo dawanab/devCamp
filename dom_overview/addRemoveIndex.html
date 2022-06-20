@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Exercise</title>
+</head>
+<body>
+    <h1>How to Add and Remove Classes in Vanilla JavaScript</h1>
+    <h2>Coding Exercise</h2>
+    <br>
+    <h3>Directions: With pure JavaScript, remove the class 'active' and replace it with 
+        'disabled'.
+    </h3>
+    <div id="heading" class="active">
+        "Do, or do no. There is no try."
+        - A little green Jedi
+    </div>
+</body>
+<script>
+    let heading = document.getElementById("heading");
+    heading.onclick = () => {
+        heading.className = "disabled";
+    }
+</script>
+</html>

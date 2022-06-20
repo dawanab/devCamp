@@ -1,0 +1,32 @@
+<!-- Coding Exercise
+Using what you have learned so far, on the corresponding variable 
+names below, simply get the one element by its id, and get all the 
+tags with a query selector all. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Use JavaScript's Toggle Function</title>
+</head>
+<body>
+    <div class="lemon">A lemon</div>
+    <span>Refreshing</span>
+    <p>Beverages</p>
+    <div id="lime">A lime</div>
+</body>
+
+<script>
+    var getId = document.getElementById("lime");
+    console.log(getId);
+
+    var getAllTags = document.querySelectorAll('span, div, p');
+    console.log(getAllTags)
+   
+
+   
+    
+</script>
+</html>

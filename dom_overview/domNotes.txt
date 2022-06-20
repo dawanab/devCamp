@@ -1,0 +1,7 @@
+########################## THE QUERY SELECTOR ###########################
+    > The querySelector() is a method of the Element interface. It allows
+    you to select the first element that matches one or more CSS selectors. 
+
+    > The Document method querySelectorAll() returns a static (not live) 
+    NodeList representing a list of the document's elements that match
+    the specified group of selectors.

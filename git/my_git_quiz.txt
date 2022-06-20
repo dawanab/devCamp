@@ -1,0 +1,64 @@
+GIT GET STARTED -------------->
+
+1. What is the command to check which version of Git is installed?
+    > git --version 
+
+2. Initialize Git on the current folder:
+    > git init 
+
+3. Set the username for the current repository to "dawanab"
+    > git config user.name "dawanab"
+
+GIT NEW FILES ---------------->
+
+4. Check the status of the Git
+    > git status
+
+GIT STAGING ENVIRONMENT ------>
+
+5. Add index.html to the Staging Environment:
+    > git add index.html
+
+6. Shorthand command for staging all new, modified, and deleted files:
+    > git add -A
+
+GIT COMMIT ------------------>
+
+7. Commit the changes to the current repository with the message "First Release!"
+    > git commit -m "First release!"
+
+8. Commit the updated files directly, skipping the staging environment:
+    > git commit -a -m "New line added"
+
+9. View the history of commits for the repository:
+    git log
+
+GIT HELP -------------------->
+
+10. Show the possible options for the status command in command line:
+    > git status -help 
+    > git help --all  
+
+GIT BRANCH ------------------->
+
+11. Create a new branch called 'hello-world-images'
+    > git branch hello-world-images
+
+12. List the existing branches:
+    > git branch
+
+13. Move to the hello-world-images branch:
+    > git checkout hello-world-images
+    
+14. Create, and move to a new branch with the name hello-you:
+    > git checkout -b hello-you
+
+GIT BRANCH MERGE ------------->
+
+15. Merge the hello-you branch with the current branch:
+    > git merge hello-you 
+
+16. Remove the hello-you branch from the local repository:
+    > git branch -d hello-you 
+
+17. CONTINUE ON W3SCHOOLS PIN TAB

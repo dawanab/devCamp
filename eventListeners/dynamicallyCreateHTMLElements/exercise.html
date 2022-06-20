@@ -1,0 +1,21 @@
+<!-- Coding Exercise
+Add a paragraph tag inside the parent that has the text content: Hello -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Dynamically Add HTML Elements JS</title>
+</head>
+<body>
+    <div id="parent"></div>
+</body>
+
+<script>
+    const paragraph = document.createElement("p");
+    paragraph.innerHTML = "Hello"
+    document.querySelector("#parent").appendChild(paragraph);
+</script>
+</html>

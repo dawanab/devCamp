@@ -1,0 +1,15 @@
+# Differences Between the Window and Document for JavaScript Development
+    > Above the document tier, is the Window object.
+    > The Window nests the document inside of it.
+    > The window has its own set of properties and it has a wrapper window that
+    contains the main document so they can be treated independently. 
+
+# Overview of JavaScript Query Selectors 
+    > querySelectorAll returns a NodeList.
+    > querySelector brings back the actual object that you're trying to grab. 
+    > classList - returns the CSS classnames of an element
+
+# Guide to JavaScript Event Listeners
+    > We can listen to events that occur in the browser and then have those
+    start processes in our code. 
+    > addEventListener attaches an event handler to an element 

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Add and Remove Classes with JS</title>
+
+    <style>
+        .activeHeading {
+            color: firebrick;
+            font-size: 2em;
+            cursor: pointer;
+        }
+
+        .nonActiveHeading {
+            color: cornflowerblue;
+            font-size: 4em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id = "mainHeading" class="activeHeading">
+        Hi there!
+    </div>
+</body>
+
+<script>
+    // Can do commented out way, or uncommented way ------------------>
+    const heading = document.getElementById('mainHeading');
+    // heading.onclick = () => {
+    //     if (heading.classList.contains("activeHeading")) {
+    //         heading.classList.remove("activeHeading");
+    //         heading.classList.add("nonActiveHeading");
+    //     } else {
+    //         heading.classList.remove("nonActiveHeading");
+    //         heading.classList.add("activeHeading");
+    //     }
+    // }
+
+    heading.onclick = () => {
+        if (heading.classList.contains("activeHeading")) {
+            heading.className = 'nonActiveHeading';
+        } else {
+            heading.classList = "activeHeading";
+        }
+    }
+</script>
+</html>

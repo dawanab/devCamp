@@ -1,0 +1,81 @@
+# Overview of Git Pull:
+    > pull down the latest version of the application: git pull 
+
+# Introduction to Git Branches:
+    > Main (Master), Little Feature, Big Feature 
+    > You can utilize branches to build other features into your projects and then
+    bring them back in and merge them with the master repo so that everyone else
+    can have access to them.
+
+# Basic Git Branching Workflow:
+    > git branch - shows which branch you're on, and see the full list of branches 
+    in your local machine (not on gitHub)
+
+    > git checkout -b "branch-name" : creating and checking into a new branch
+
+# How to Push and Merge a Remote Branch in Git:
+    > git push - u origin "name-of-branch"
+
+# Overview of Git Rebase:
+    > Rebasing is the process of moving or combining a sequence of commits to a new 
+    base commit. 
+    > You should not use rebasing on a shared feature branch 
+
+# Overview of Git Stash:
+    > Temporarily shelves (stashes) changes you've made to your working copy so you can
+    work on something else, and then come back and re-apply them later on.
+
+# Difference Between Git Fetch and Git Pull:
+    > git pull will fetch and download content from a remote repository and immediately
+    update the local repository to match that content; 
+    brings down all of the changed code from whatever branch that we're wanting
+    to pull down
+
+    > git fetch tells your local git to retrieve the latest meta-data info from
+    the original. It doesn't do any file transferring. It's like checking to 
+    see if there are any changes available ;will bring back the changes 
+    (it will download contents from a remote repo);
+    it updates a local repository to the state of the remote
+
+# How to Delete a Local and Remote Branch in Git:
+    > git checkout -b 'branch-to-remove'
+    git add .
+    git commit -m 'message'
+    git push -u origin 'branch-to-remove'
+    pull request and merge to master branch
+    THEN
+    git checkout master
+    got branch -d 'branch-to-remove'
+    git pull
+    git push origin --delete 'branch-to-remove'
+
+# A Step by Step Guide for How to Resolve Git Merge Conflicts:
+    > Open the file and make any necessary changes, after editing the file and removing
+    the git symbols, add the file to staging area and commit. Git will create a new
+    merge commit to finialize the merge 
+
+# Reverting to the Latest Commit in Git:
+    > git checkout .
+    > then delete those files: rm 'file-name'
+    > git status to see the change 
+
+# How to Revert a Single File to a Previous Version in Git:
+    > git log (j moves down, k move log up, q quits, shift + g takes you to the end)
+    > grab the commit key and copy it
+    > git checkout 'insert git-key' -- 'file path'
+    > git status will show we modified the file 
+    > git add .
+    > git commit -m 'message'
+    > git push
+
+# Guide to Viewing a Version Commit for a Git Project:
+    > git checkout 'commit key' - b 'branch-name'
+    > git checkout master 
+    > git branch -d 'branch-name'
+    > git branch 
+
+# How to Revert an Entire Project Back to a Previous Version in Git:
+    > git reset -- hard 'commit key'
+    > git push -f origin master 
+
+    > REWATCH FOR CLARIFICATION
