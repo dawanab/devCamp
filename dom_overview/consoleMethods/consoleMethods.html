@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Various Console Methods in JavaScript</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    // Ex. I ------------------------>
+    const someObj = {
+        name: "Kennedy"
+    }
+    console.log("Hi ", someObj, "After object");
+
+
+    // Ex. II ------------------------>
+    // If you have an array of objects or complex data structures
+    const playerNames = [
+        {name: "Kennedy", age: 2},
+        {name: "Dallas", age: 2},
+        {name: "Biscuits", age: 6}
+    ]
+    console.table(playerNames);
+
+
+    // Ex. III (log an error) -------->
+    console.error("oops!");
+
+
+    // Ex. IV (log a warning) -------->
+    console.warn("Something is about to go wrong, bud...");
+</script>
+</html>
+
+<!-- For more console methods, visit the below link -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/API/Console -->

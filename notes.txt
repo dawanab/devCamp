@@ -13,3 +13,23 @@
     > We can listen to events that occur in the browser and then have those
     start processes in our code. 
     > addEventListener attaches an event handler to an element 
+
+# How to Use the JS Console's Copy Function to Scrape a Website
+    const allTopics = document.querySelectorAll('.topics')
+    allTopics
+    copy(allTopics) ---> then paste into an editor
+    const arrtopicssample = Array.prototype.slice.call(allTopics);
+    arrtopicssample
+    arrtopicssample[0]
+    arrtopicssample[0].textContent
+    const sampleTopicList = arrtopicssample.map(e => e.textContent)
+    copy(sampleTopicList) ----> then paste into an editor to get results
+    > copied fron chrome's browser console.....
+ [
+    "REACTJS DEVELOPMENTHIRE REACTJS DEVELOPERSREACTJS DEVELOPMENT SERVICES",
+    "BLOCKCHAINSOFTWARE DEVELOPMENT MOBILE APP DEVELOPMENT SERVICES",
+    "OUTDOOR RESTAURANT AND ROOF TOP TENTSCAMPINGRESORTTENTMANUFACTURER",
+    "POKER GAME",
+    "CASINO",
+    "STRATEGY"
+]

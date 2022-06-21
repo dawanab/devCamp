@@ -1,0 +1,23 @@
+<!-- Coding Exercise
+Inside the div below, insert a span tag that has a class name of content 
+and says "You got this!". -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create and Remove Bullet Points Exercise</title>
+</head>
+<body>
+    <div id="wrapper"></div>
+</body>
+
+<script>
+    const mySpan = document.createElement("span");
+    mySpan.innerHTML = "You got this!";
+    mySpan.classList.add("content");
+    document.querySelector("#wrapper").appendChild(mySpan);
+</script>
+</html>

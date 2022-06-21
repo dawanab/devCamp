@@ -1,0 +1,34 @@
+<!-- Coding Exercise
+Remove all elements with the class name of post. Then inside the wrapper 
+add a p tag that has a class name of flash-message and says 
+"Posts coming soon!" -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove HTML Elements with JS</title>
+</head>
+<body>
+    <div class="post-wrapper">
+        <div class="post"></div>
+        <div class="post"></div>
+        <div class="post"></div>
+    </div>
+</body>
+
+<script>
+    function removeClass() {
+        const removeMe = document.querySelectorAll(".post");
+        removeMe.forEach(el => el.remove());
+    }
+removeClass();
+
+    const addMe = document.createElement("p");
+    addMe.innerHTML = "Posts coming soon!";
+    document.querySelector(".post-wrapper").appendChild(addMe);
+    
+</script>
+</html>
