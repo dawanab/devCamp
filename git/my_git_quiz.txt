@@ -61,4 +61,64 @@ GIT BRANCH MERGE ------------->
 16. Remove the hello-you branch from the local repository:
     > git branch -d hello-you 
 
-17. CONTINUE ON W3SCHOOLS PIN TAB
+GIT REMOTE GET STARTED ------->
+17. git remote add origin https://github.com/x/y.git
+
+GIT PULL FROM REMOTE --------->
+18. pull is a combination of:
+    > fetch and then merge 
+
+19. Get all the change history of the origin for this branch:
+    > git fetch origin
+
+20. Merge the current branch with the branch master, on origin:
+    > git merge origin/master 
+
+21. Update the current branch from its origin using a single command:
+    > git pull origin 
+
+22. push the current branch to its default remote origin:
+    > git push origin
+
+GIT PULL BRANCH FROM REMOTE ------------->
+23. List all local and remote branches of the current Git.
+    > git branch -a 
+
+24. List only remote branches of the current Git:
+    > branch -r 
+
+GIT CLONE ------------------------------->
+25. Clone the repository https://abc.com/x/y.git to your local Git:
+    > git clone https://abc.com/x/y.git
+
+26. Clone the repository https://abc.com/x/y.git to a folder named "newlife":
+    > git clone https://abc.com/x/y.git newlife 
+
+27. Rename the origin remote to upstream:
+    > git remote rename origin upstream 
+
+28. In .gitignore add a line to ignore all .temp files:
+    > *.temp 
+
+29. In .gitignore add a line to ignore all files in any directory named temp:
+    > temp/ 
+
+30. In .gitignore add a single line to ignore all files named temp1.log, temp2.log, and temp3.log:
+    > temp?.log 
+
+31. In .gitignore, ignore all .log files, except main.log:
+    > *.log
+      !main.log
+
+GIT REVERT ------------------------------------>
+32. Show the log of the repository, showing just 1 line per commit:
+    > git log --oneline
+
+33. revert the latest commit:
+    > git revert HEAD
+
+34. revert the latest commit, skipping the commit message editor:
+    > git revert HEAD --no-edit 
+
+35. revert the two last commits:
+    > git revert HEAD~1
