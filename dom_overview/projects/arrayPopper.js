@@ -1,3 +1,6 @@
+/* This program will Array Popper that Alternates Returning from Each Side 
+of an Array in JS */
+
 class ArrayPopper {
     constructor(arr) {
       this.arr = arr;
