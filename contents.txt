@@ -32,3 +32,6 @@
 # Project - Guide to Building Shared Behavior with JavaScript Functions
 # How to Add Hot Keys to a Web Application in Vanilla JavaScript
 # How to Dynamically Create HTML Elements with JavaScript
+
+# Guide to Removing HTML Elements with JavaScript
+# Project Requirements: Create and Remove Bullet Points Between Lists
