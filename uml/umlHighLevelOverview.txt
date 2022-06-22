@@ -1,0 +1,86 @@
+# Section Introduction
+    > Structural Diagrams - any types of diagrams that model the way a 
+    system is architected. (ex. class diagram). It's a way of defining
+    the different class names, attributes, and method names that belong 
+    inside of a system that you're building.
+
+    > Behavioral Diagrams - care about how your system behaves. Cares 
+    about the messages that one system sends to another, what types
+    of permissions does a user have vs. another.
+
+-------
+
+# Overview of Structural Diagrams in UML:
+I. Structural Diagrams - the three main types are: Class, Deployment, and Package
+    1. Class Diagram - the most popular and most common diagram; helps
+    to point to for how their system was put together; 
+        > the elements that make up a class are Name, Attributes, and Operations
+
+II. Deployment Diagrams - they are made up of 6 elements: nodes, components,
+artifacts, links, dependencies, and associations; They give us the ability to model how 
+an entire system architecture should be configured; best used when we have an 
+application with multiple servers, multiple places where we can store code.
+    1. In the Continuous Integrations (CI) we have: Staging evnironment, Pre-
+    production evnironment, and Production environment 
+
+III. Package Diagram - the main elements are: type, classifier, class, use case,
+component, package, constraint, dependency, event; can be used when building a 
+code library where you want to allow another application to communicate with 
+    > they are the elements that have the dotted lines connected to an open arrow
+
+-------
+
+# Overview of Behavioral Diagrams in UML:
+> UML is broken into either Structural or Behaviorial Diagrams
+
+> Behaviorial diagrams - illustrate how our system should behave, how it should
+    act, how it should interact with the internal systems, how it interacts with 
+    outside actors/individuals/users that are going to be working with the system.
+    > Types of behaviorial diagrams: activity, use-case, state machine, sequence
+
+I. Activity Diagram - easy for non technical users to see and understand; can 
+demonstrate what is happening at each stage of a user's lifecycle or a systems 
+type of workflow. The elements that are comprised in an activity diagram are:
+initial state (starting point), activity (action state), action flow, decisions
+(branching), guards, final state (end point)
+
+II. Use Case Diagram - gives you the ability to show everything that a user has 
+access to; The elements that are used inside this diagram are: use cases,
+actors, subsystems, relationships
+
+III. State Machine Diagram - what is being visualized is what data looks like
+and actions at various stages of a software systems lifecycle; it's a way of 
+breaking down parts into small pieces and showing what users will have access to 
+and show decisions that they have. the elements are: entry point, choices, 
+constraints, states, transitions
+
+IV. Sequence Diagram - a more complex diagram; they speak directly to the 
+implementation, and how the code needs to operate; supposed to make the 
+implementation of the project easier to build; the elements that make it up are:
+class roles (participants), activation (execution occurence), messages, and lifelines
+
+# QUIZ 
+1. There are 2 types of diagrams that are offered by UML. They are?
+    - Structural/ Behavioral
+
+2. Structural Diagrams are any types of diagrams that model the way 
+the system is architected. - TRUE
+
+3. Behavioral Diagrams do not care about permissions users have. - FALSE
+
+4. What are the three main types of Structural Diagrams? - class, deployment, 
+package 
+
+5. What elements make up a class diagram? - name, attributes, operations 
+
+6. Deployment diagrams give us the ability to model how an entire system 
+architecture should be configured. - TRUE
+
+7. A package diagram will not allow you to encapsulate important items. - FALSE
+
+8. What diagram is easy for non technical users to see and understand? - Activity 
+
+9. A Use Case Diagram gives you the ability to show everything a user has access to.
+    - TRUE 
+
+10. As a senior level developer what diagrams do they use the most? - Sequence 

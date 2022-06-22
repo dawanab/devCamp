@@ -3,7 +3,7 @@
 
 ---
 
-**Table of Contents**
+**Table of Contents:**
 *Module 6*
 1. Git
     - 
