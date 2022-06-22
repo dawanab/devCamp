@@ -1,0 +1,58 @@
+# What is UML?
+    > Unified Modeling Language; it's a standardized modeling language 
+    consisting of diagrams, developed to help system and software 
+    developers specify, visualiza, construct, and documenct the 
+    software and non-software systems. 
+
+-------
+
+# Activity Diagram 
+    > It allows you to say what happens at each stage of an 
+    application's flow.
+
+# Deployment Diagram
+    > It gives you the ability to take a high-level look at your code.
+
+# Class Diagram
+    > It helps you model your entire database to see the relationships
+    between tables and to ensure that you're performing best practices
+    such as database normalization, etc. 
+
+# Use Case Diagram
+    > It's high-level and allows you to organize each of the processes
+    a specific user of the system is allowed to acces. 
+
+# Sequence Diagram
+    > It's able to see all of the messages that the system is passing 
+    internally to ensure that you're building according to 
+    best practices.
+
+# Package Diagram
+    > After the entire system is built, this is used to see how you're 
+    organizing your code base. It gives a high-level overview for 
+    every component in the system.
+
+-------
+
+# UML Components and Common Elements:
+    > The six common elements are: frames, classifiers, stereotypes, 
+    comments, dependencies, and features (properties)
+
+-------
+
+# Common UML Components: Frames:
+    > Frames help you encapsulate your view components.
+    > What? - Encapsulates view components; provides context
+    > How? - Headings; descriptive notation
+    > Why? - Provides context
+
+# Diagram Mapping (frames):
+    > act = activity / class = class / cmp = component / dep = deployment
+    sd = interaction / pkg = package / stm = state machine / uc = use case
+
+-------
+
+# Common UML Components: Classifiers:
+    > Classifiers allow us to identify components. 
+    > What? - 
+
