@@ -43,3 +43,13 @@ domOverview ---------------------------------------------------->
 projects -------------------------------------------------------->
 # Array Popper that Alternates Returning from Each Side of an Array in JS
 # Create a Capitalize Function in JavaScript
+
+uml ------------------------------------------------------------->
+# UML Overview 
+# Stages of Development where UML is Utilized
+# Intro to UML Components and Common Elements
+# Common UML Components: Frames
+# Common UML Components: Classifiers
+# Common UML Components: Comments and Notes
+# Common UML Components: Dependencies
+# Common UML Components: Features and Properties

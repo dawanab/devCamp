@@ -54,5 +54,70 @@
 
 # Common UML Components: Classifiers:
     > Classifiers allow us to identify components. 
-    > What? - 
+    > What? - Way of identifying components; abstract
+    > How? - Multiple use case diagrams
+    > Why? - High level design; standardized naming
+
+# Used by: 
+    > class, interface, association, datatype, actor, use case, artifact,
+    component, signal 
+
+-------
+
+#Common UML Components: Comments and Notes:
+    > Comments (Notes) give you the ability to have descriptive markup.
+    > What? - descriptive markup
+    > How? - Dotted line to element 
+    > Why? - Communication clarity; explanations outside of normal scope 
+
+-------
+
+# Common UML Components: Dependencies:
+    > They denote coupling; coupling gives us the abliity to see how
+    badly one component needs another component
+    > What? - Denotes coupling 
+    > How? - Dotted line with open arrow
+    > Why? - Model required components; regression error prevention 
+
+-------
+
+# Common UML Components: Features and Properties:
+    > They represent attributes of an element.
+    > What? - Represents attributes of element
+    > How? - Name and optional attributes
+    > Why? - Implementation guidance; naming conventions 
+
+-------
+
+# QUIZ 
+    1. Features and properties are something you will rarely see in UML 
+        - False
+    
+    2. Comments allow us to add clarification to the goals we are trying 
+    to accomplish with a specific diagram. - True
+
+    3. Stereotypes can represent how we can build out the MVC. - True
+
+    4. Classifiers do not classify anything in particular. - False
+
+    5. The most important reason you use Frames is when you are working 
+    on large systems you want to be able to understand the context.
+        - True
+    
+    6. The six common elements are frames, classifiers, sterotypes, 
+    comments, features and _________. - Dependencies
+
+    7. A deployment diagram gives you the ability to take a high 
+    level look at your code. - True 
+
+    8. A ______ Diagram allows you to say what happens at each state 
+    of an application flow. - Activity 
+
+    9. What year was UML born? - 1996
+
+    10. What does UML stand for? - Unified Modeling Language
+
+
+
+
 
