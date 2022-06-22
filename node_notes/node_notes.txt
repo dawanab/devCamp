@@ -1,0 +1,39 @@
+Node Package Manager
+    - The Node package manager helps us to include external packages
+    inside our Node.js projects
+
+I. Dependencies: A Sea of Shared Modules
+    > When we install Node.js, it comes preshipped with some modules.
+    > We can also take advantage of modules created by other developers.
+    > When we use these modules in our code, they are referred to as 
+    dependencies. 
+    > ex. if we're building an application that needs date functionality, 
+    we could write our own code for that, or we could use a module created
+    by another developer that has the functionality that we need. 
+
+II. Package Management 
+    > The dependencies that we want to use are installed in packages that 
+    are handled by a package manager. 
+        * package - 3rd party module wrapped up with the list of that module's
+        own dependencies
+    > A package manager can do the following tasks: download and install the 
+    packages to be used as dependencies on a project, checks for known 
+    vulnerabilities, checks if packages can be updated to a newer version,
+    removes all the files of a package when it's no longer needed, etc.
+    > The most popular package manager is Node Package Manager, which is the
+    default package manager for Node.js. It's command-line tool, npm, enables
+    developers to download and manage packages via the terminal.
+
+III. Initialization of Node.js 
+    > To initialize a Node.js app, we open up a terminal and enter the command:
+    npm init; this results in a series of prompts asking us for info about 
+    our project. Once completed, we'll have a package.json file generated
+    with the information listed in JSON format. 
+
+IV. Installing 
+    > Can visit https://www.npmjs.com/ for node packages to install.
+
+V. Global Packages 
+    > Packages installed globally will not be listed in a project's 
+    package.json file.
+

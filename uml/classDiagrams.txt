@@ -1,0 +1,40 @@
+# Overview of Class Diagram Elements 
+# Class Diagrams - has three elements that make it up: name, attributes, 
+operations; attributes have three different items at a minimum that 
+you should include: visibilty (public '+'/protected '#'/private '-'), 
+name, and datatype
+    > operations are methods/functions; add a + if you want to call 
+    from outside the topic, or a '-' if you don't want to call 
+    outside the topic. Operations are followed by parentheses
+
+-------
+
+# UML Class Diagram Associations, Multiplicity, and Navigability: 
+    > Associations - the semantic relationship between classes that 
+    shows how one instance is connected or merged with others in a system.
+
+    > Multiciplicity - how we designate the direction of the relationship
+    in regards to numbers
+
+    > Navigability - deals with how you can have one class communicate with 
+    any other class; sets the rules for knowing how that communication can
+    take place
+
+-------
+
+# QUIZ
+1. Attributes have three different items at a minimum that you should include.
+    - TRUE
+
+2. Operations are always followed by? - parentheses 
+
+3. Relationship and association is the same thing because it is how one class 
+is connected to another. - True 
+
+4. Multiplicity is how we designate the direction of the relationship in 
+regards to numbers. - True 
+
+5. Navigability deals with how you can't have classes communicate with other  
+classes. - False 
+
+

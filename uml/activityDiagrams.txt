@@ -1,0 +1,19 @@
+# Elements of a UML Activity Diagram:
+
+I. There are 7 different elements: initial state(start point),
+activity (action state), action flow, decisions and branching,
+guards, final state (end point), and swim lines 
+    > initial state is represented by a thick circle with a white
+    circle in the center; it's how you represent how a user or 
+    system will begin
+    > activity (action state) - represented by the boxes on the diagram
+    > action flow - represented by a filled-in arrow tip; means that 
+    we took a piece of data and took it from one action state to 
+    another action state and this action flow is how they're connected
+    > decisions (branching) - represented by a diamond square which 
+    is called the branching point or decision; represnts a stage in the 
+    application where a decision has to be made
+    > guards - represented by 'yes' or 'no' options
+    > final state - stores the result inside of the system database
+    > swim lane - a way to group activities performed by the same actor
+    or an activity diagram or to group of activities in a single thread
