@@ -1,7 +1,7 @@
 # What is UML?
     > Unified Modeling Language; it's a standardized modeling language 
     consisting of diagrams, developed to help system and software 
-    developers specify, visualiza, construct, and documenct the 
+    developers specify, visualize, construct, and document the 
     software and non-software systems. 
 
 -------
@@ -20,7 +20,7 @@
 
 # Use Case Diagram
     > It's high-level and allows you to organize each of the processes
-    a specific user of the system is allowed to acces. 
+    a specific user of the system is allowed to access. 
 
 # Sequence Diagram
     > It's able to see all of the messages that the system is passing 
@@ -77,7 +77,7 @@
     badly one component needs another component
     > What? - Denotes coupling 
     > How? - Dotted line with open arrow
-    > Why? - Model required components; regression error prevention 
+    > Why? - Model-required components; regression error prevention 
 
 -------
 
