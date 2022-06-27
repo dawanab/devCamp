@@ -24,8 +24,10 @@ guards, final state (end point), and swim lines
     > swim lane - a way to group activities performed by the same actor
     or an activity diagram or to group of activities in a single thread
 
-    Generating an individual question set, confirming, and asking a question 
-    are various actions states. : TRUE
+
+QUIZ -------------->
+Generating an individual question set, confirming, and asking a question 
+are various actions states. : TRUE
 
 Every time you get to a spot where the data changes or where you're making an alteration, 
 it could be an action flow. -FALSE
