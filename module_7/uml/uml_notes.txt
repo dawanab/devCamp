@@ -1,0 +1,10 @@
+Use Case Diagrams
+    > Elements - use cases, actors, subsystems, relationships
+    > Subsystems in a use case diagram are represented by large
+    rectangular boxes that have use cases and different elements
+    inside of them; shows where these types of use cases are actually going 
+    to occur. 
+    > Relationships are represented by dotted lines with open arrows;
+    it shows how you can go from one use case to another; gives the ability 
+    to connect your actors directly to the use cases and to the elements
+    and actions that they have access to in the system.
