@@ -1,4 +1,4 @@
-Use Case Diagrams
+# Overview of UML Use Case Diagrams Elements ------------------------------>
     > Elements - use cases, actors, subsystems, relationships
     > Subsystems in a use case diagram are represented by large
     rectangular boxes that have use cases and different elements
@@ -8,3 +8,70 @@ Use Case Diagrams
     it shows how you can go from one use case to another; gives the ability 
     to connect your actors directly to the use cases and to the elements
     and actions that they have access to in the system.
+
+QUIZ
+1. If the web dashboard says "generate forms" then it tells us that we have 
+a number of components to build. - TRUE
+
+2. Relationships are represented by lines and filled in arrows. - FALSE
+
+3. Subsystems are also called system boundaries. - TRUE
+
+4. Subsystems in a use case diagram are represented by large rectangular 
+boxes that have different elements inside them. - TRUE
+
+5. An actor can only be an admin or customer. - FALSE
+
+6. One of the reasons that you would build this type of diagram is 
+to set up authorization rules. -  TRUE
+
+
+
+# Overview of UML Deployment Diagram Elements ---------------------------->
+    > The six elements that make up a deployment diagram:
+    nodes, components, artifacts, links, dependencies, associations
+
+    > Essentially, every component of a deployment diagram is a node. The
+    node itself is the actual real-world component
+
+    > A component could be an application, web service, API, database, 
+    or many other things. It's typically the actual piece of software
+    that manages communication and handles the business logic for 
+    the node that it resides on; You need to be able to visualize and 
+    represent your system in a way that makes sense
+
+    > Artifacts are model elements that represent the physical entities
+    in a software system; surrounded by angle brackets
+
+    > Links are the lines that are connecting each one of the nodes.
+
+    > Dependencies are represented by dotted lines with arrows going in
+    the direction of the node. It shows what other nodes it depends on.
+
+    > Association is a way of connecting all of the nodes and showing
+    how they're associated. 
+
+QUIZ 
+1. Deployment diagrams help in deciding the architecture for a system. -  TRUE
+
+2. The node does not represent the real world component within the 
+diagram. - FALSE
+
+3. Artifacts are items that are surrounded by what kind of brackets? - <>
+
+4. The artifact is very descriptive so that the architect knows what 
+needs to be configured. - TRUE
+
+5. If we want to be more specific about our terms we can add 
+dependencies. - TRUE
+
+
+
+# Overview of UML Package Diagram Elements ----------------------------->
+    > Package diagrams are a way to wrap some of the other components from 
+    other diagrams and what they represent
+
+    > Abstract elements: type, classifier
+    > elements: class, use case, component, package, dependency, event
+
+    > 
