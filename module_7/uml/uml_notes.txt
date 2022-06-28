@@ -81,4 +81,79 @@ dependencies. - TRUE
 =============================================================================
 
 # Overview of Sequence Diagram Elements ----------------------------->
-    > 
+    > Allows you to pick and choose and isolate all of the elements and 
+    see how they should communicate with each other; allows you to 
+    isolate all of the different communication occurences that will 
+    happen to a participant 
+    > Elements: class roles (participants), messages, lifelines, 
+    activation (execution occurence)
+
+    > Class Roles (Participants) is shown using the notation for a class, 
+    but the class name is preceded by a forward slash followed by the name
+    of the role that objects must conform to in order to participate within
+    the role, followed by a colon
+
+    > Activation (Execution Occurence) - illustrated by a vertical pipe-
+    like item; they are the event when something transpires when it either
+    receives a message or when it sends it. 
+
+    > Message - represented by lines with arrows going in the direction 
+    that the message is being sent; it has the ability to take in some 
+    kind of input, send output, and in some cases it can receive output 
+
+    > Lifelines - illustrated by dotted lines; the represent making it 
+    easier for us to see each one of the stages and to give a spot where
+    the messages can be sent
+
+QUIZ
+1. Sequence diagrams are good to use when you are building large projects. - TRUE
+
+2. Lifelines make it easier for us to see each of the stages and give a 
+place for the messages to be sent. - TRUE
+
+3. A message is not a method that you can use to send and recieve input. - FALSE
+
+4. Activation or Execution Occurrence is the sending or recieving 
+of a message. - TRUE
+
+5. Sequence diagrams will not let you isolate all of the different 
+communication occurences. - FALSE
+
+6. Sequence diagram allows you to drill down so that you can pick and 
+choose the elements and how they should communicate. -  TRUE
+
+7. Sequence diagrams allow you to visualize all of the messages 
+that are being passed between the components of your system. - TRUE
+
+=============================================================================
+
+# Overview of State Machine Diagram Elements ----------------------------->
+    > Allows us to visualize what a feature of our application will look 
+    like and how it will transition from one state into another state; cares
+    more about the different actions that can change a user's state; the 
+    main goal is to visualize the state of whatever object you're trying
+    to follow 
+    > A good time to use a state machine diagram is when building an approval
+    engine
+    > Elements: entry point, choice, constraint, state, transition 
+
+    > Entry Point - illustrated by a loarge filled in black dot and it is 
+    the start
+
+    > Choice - its' where questions are being asked; represented by a 
+    45-degree angle square
+
+    > Constraint - a way of being able to ask a question 
+
+    > State - illustrated by a rounded edge rectangle
+
+    > Transition - how you get from one state to another; represented by
+    a line with an arrow showing the direction of that transition
+
+QUIZ 
+1. A state machine cares more about the different actions that can change 
+a user's state. - TRUE
+
+2. Transition is how you stop at a state and head to the constant. - FALSE
+
+3. Try to keep your state diagrams as simple as possible. -  TRUE
