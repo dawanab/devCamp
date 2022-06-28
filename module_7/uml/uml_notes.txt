@@ -1,4 +1,4 @@
-# Overview of UML Use Case Diagrams Elements ------------------------------>
+# Overview of Use Case Diagrams Elements ------------------------------>
     > Elements - use cases, actors, subsystems, relationships
     > Subsystems in a use case diagram are represented by large
     rectangular boxes that have use cases and different elements
@@ -25,9 +25,9 @@ boxes that have different elements inside them. - TRUE
 6. One of the reasons that you would build this type of diagram is 
 to set up authorization rules. -  TRUE
 
+=============================================================================
 
-
-# Overview of UML Deployment Diagram Elements ---------------------------->
+# Overview of Deployment Diagram Elements ---------------------------->
     > The six elements that make up a deployment diagram:
     nodes, components, artifacts, links, dependencies, associations
 
@@ -65,13 +65,20 @@ needs to be configured. - TRUE
 5. If we want to be more specific about our terms we can add 
 dependencies. - TRUE
 
+=============================================================================
 
-
-# Overview of UML Package Diagram Elements ----------------------------->
+# Overview of Package Diagram Elements ----------------------------->
     > Package diagrams are a way to wrap some of the other components from 
-    other diagrams and what they represent
+    other diagrams and what they represent; they allow us to take our other
+    different components insisde of the system and show how they relate to 
+    each other and you can show dependencies and other elements; they 
+    represent the structure of your software at a high-level and shows
+    how it can be composed and how each element is connected.
 
     > Abstract elements: type, classifier
     > elements: class, use case, component, package, dependency, event
 
+=============================================================================
+
+# Overview of Sequence Diagram Elements ----------------------------->
     > 
