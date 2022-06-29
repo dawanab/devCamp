@@ -32,4 +32,16 @@
     Payment (include validation points throughout the process)
 
 ===========================================================================
-# Project Three: Model a Phone Parser Code Library 
+# Project Three: Model a Phone Parser Code Library:
+    > Structural Design Requirements: package 
+    > Behaviorial Design Requirements: sequence diagram; focuses on the
+    messages that are sent between systems, or sent internally
+
+    > Package Diagram Requirements: Phone parser, Country codes
+    > Sequence Diagram Requirements: Participants: Digit length
+    validator, Country code validator, Start point: receives data, 
+    Endpoint: returns parsed phone number, Key messages: parsing and 
+    validations 
+
+===========================================================================
+# Project Four: Design an Enterprise Fleet Management System 
