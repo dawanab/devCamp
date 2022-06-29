@@ -1,0 +1,15 @@
+# Overview of Software Systems:
+    > Anytime you have an application that users interact with, that is 
+    a high-level system.
+    > Low-level systems are the types of software that an end-user usually
+    does not interact with.
+
+
+===========================================================================
+# Project One: Design Twitter System:
+    > Structural diagram used: class; allows us to set up our database
+    associations and list out all of the attributes, method names, etc.
+
+    > Class Diagram Requirements: User, Tweet, Retweet, Preference, 
+    Security, Message, Hashtag, Reply, Like, Location, Image, Users 
+    following other users 
