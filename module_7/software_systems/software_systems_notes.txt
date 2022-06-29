@@ -45,3 +45,16 @@
 
 ===========================================================================
 # Project Four: Design an Enterprise Fleet Management System 
+    > Behaviorial Design Requirements: activity 
+    > Structural Design Requirements: package
+
+    > Activity Diagram Requirements: Maintenance activities (8-12 activities),
+    Start point: maintenance inquiry, Endpoint: maintenance complete 
+        > example action items: technical diagnosis, assign service member, 
+        order parts 
+
+    > Package Diagram Requirements (allows us to model out the main modules
+    that the system's going to need, and model the different operations 
+    associated with each of them): Fleet management modules, operations, 
+    dependencies
+        > Modules: personnel, vehicles, parts, maintenance, partners
