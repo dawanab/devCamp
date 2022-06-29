@@ -9,3 +9,6 @@
     > The Importance of Systems Analysis & Design for Solving Real 
     World Software Problems 
     > Overview of Software System 
+    > Project One: Design Twitter System (diagrams)
+    > Project Two: Design an Ecommerce application (diagrams)
+    > Project Three: Model a Phone Parser Code Library (diagrams)
