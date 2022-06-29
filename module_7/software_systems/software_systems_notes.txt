@@ -9,7 +9,11 @@
 # Project One: Design Twitter System:
     > Structural diagram used: class; allows us to set up our database
     associations and list out all of the attributes, method names, etc.
+    > Behaviorial diagram used: use-case; they're great at visualizing
+    the types of authorizations that users have
 
     > Class Diagram Requirements: User, Tweet, Retweet, Preference, 
     Security, Message, Hashtag, Reply, Like, Location, Image, Users 
     following other users 
+    > Use-Case Requirements: Actors: User and Follower, Posting tweets, 
+    Retweets and Likes, Optional features: (eg.images to post)
