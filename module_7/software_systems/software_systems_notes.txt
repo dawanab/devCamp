@@ -68,3 +68,28 @@
 
 ===========================================================================
 # Project Five: Design the Uber Ride Sharing System:
+    > Behaviorial Design Requirements: activity, use-case 
+    > Structural Diagram Requirements: package, deployment
+
+    > Activity Diagram Requirements: Car ordering service process(8-12)
+        > ex activities: setting destination, taking a car, sharing 
+        trip details
+        > ex branching logic: is the trip possible, share payment with others
+
+    > Use Case Diagram Requirements: mobile app and dependencies
+        > actors: Passenger, Driver, System
+        > use cases: Search for trip details, Request ride, Cancel ride, 
+        Book ride, Share trip details, Rate rides, Update payment information,
+        Leave trip 
+
+    > Package Diagram Requirements: mobile app modules and dependencies
+        > main modules: User, trip
+        > submodules: Authentication, Booking, Payment
+        > nested modules: Single payment, Shared payment 
+
+    > Deployment Diagram Requirements: android deployment process with 
+    dependencies (3-4 nodes)
+        > API, Smartphone device, Android app 
+
+===========================================================================
+# Project Six: Model an Education Assessment System
