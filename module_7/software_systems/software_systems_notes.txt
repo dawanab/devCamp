@@ -114,4 +114,33 @@
 
 ===========================================================================
 # Project Seven: Design a Marketing Automation System:
-    > 
+    > Behavioral Design Requirements: use-case, activity, state-machine
+    > Structural Design Requirements: package, deployment, class
+
+    > Use-Case Diagram Requirements: Actors - Marketing Specialist, 
+    Lead/Customer, System, Use cases:
+        > marketing specialist - View reports, Manage Contacts, Manage forms, 
+        Send communication
+        > Lead/customer - Submit Form, Notify marketing specialist (automatic)
+        > System - Send reminders, send special offers, send 
+        communication(feeds in)
+
+    > Activity Diagram Requirements: Marketing journey flow(8-12 activities),
+        > Start point: user filling out a form
+        > end point: user purchasing 
+        > ex activities: Welcome email, delay 1 week, marketer notification
+        > ex decisions: User purchased product?, email opened?
+        > research: Fork nodes, Join nodes 
+
+    > State-Machine Diagram Requirements: Visitor, Prospect, Lead, Opportunity, 
+    Closed (won), Disqualified Prospect, Unsuccessful Lead, Lost opportunity 
+
+    > Package Diagram Requirements: Journey system (5-6 packages):
+        > Journeys, Insights/Reports, Channels and App drivers (Slack, SMS, etc)
+
+    > Deployment Diagram Requirements: Load balancer, Multiple application
+    servers, Database cluster, Email server, SMS connector, SMS provider, 
+    External CRM 
+
+    > Class Diagram Requirements: User: (Marketing Rep), Report, Form, Journey, 
+    Reminder, Message: (email, sms, externalChannel), Customer
