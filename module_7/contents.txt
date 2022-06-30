@@ -15,3 +15,6 @@
     > Project Four: Design an Enterprise Fleet Management System (diagrams)
     > Project Five: Design the Uber Ride Sharing System (diagrams)
     > Project Six: Model an Education Assessment System (diagrams)
+    > Project Seven: Design a Marketing Automation System (diagrams)
+
+# react directory:

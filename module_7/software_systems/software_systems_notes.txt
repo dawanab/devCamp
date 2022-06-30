@@ -93,3 +93,25 @@
 
 ===========================================================================
 # Project Six: Model an Education Assessment System
+    > Behaviorial Design Requirements: activity, state-machine
+    > Structural Design Requirements: class, deployment
+
+    > Activity Diagram Requirements: Quiz taking process (6-12 activities)
+        > roles: Teacher, System, Student
+        > ex activities: Asking a question, Generating a question set, 
+        Approving results
+
+    > State-Machine Diagram Requirements: Question answering state management,
+        > Waiting for answer, Answer chosen, Answer confirmed, Submit status
+
+    > Class Diagram Requirements: Student, Klass, Grade, Result, 
+    Teacher, User, Quiz, Question, Essay, Multiple Choice, Answer, 
+    Project, Practice
+
+    > Deployment Diagram Requirements: Nodes: Continuos Integration (CI)
+    server, Staging environment, Pre-production environment, Production
+    environment
+
+===========================================================================
+# Project Seven: Design a Marketing Automation System:
+    > 
