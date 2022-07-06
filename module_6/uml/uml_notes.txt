@@ -4,6 +4,9 @@
     developers specify, visualize, construct, and document the 
     software and non-software systems. 
 
+    > Structural Diagrams - the three main types are: Class, Deployment, and Package
+    > Behaviorial Diagrams - the 4 main types are: activity, use-case, state machine, sequence
+
 -------
 
 # Activity Diagram 
