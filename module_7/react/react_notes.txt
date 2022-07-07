@@ -1,0 +1,7 @@
+Reach Architecture Overview ------------------------------------------------>
+    > React - a lightweight JavaScript library for building user interfaces
+    > It is component-based; it organizes code bases based on components
+
+How to Generate a React Project with the Project Builder Module ------------>
+    > install the npm: 'npm install devcamp-js-builder -g'
+        * https://www.npmjs.com/package/devcamp-js-builder

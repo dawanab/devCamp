@@ -8,10 +8,10 @@
     > Behaviorial Diagrams - the 4 main types are: activity, use-case, state machine, sequence
 
 -------
-
-# Activity Diagram 
-    > It allows you to say what happens at each stage of an 
-    application's flow.
+# Package Diagram
+    > After the entire system is built, this is used to see how you're 
+    organizing your code base. It gives a high-level overview for 
+    every component in the system.
 
 # Deployment Diagram
     > It gives you the ability to take a high-level look at your code.
@@ -30,10 +30,13 @@
     internally to ensure that you're building according to 
     best practices.
 
-# Package Diagram
-    > After the entire system is built, this is used to see how you're 
-    organizing your code base. It gives a high-level overview for 
-    every component in the system.
+# Activity Diagram 
+    > It allows you to say what happens at each stage of an 
+    application's flow.
+
+# State Machine Diagram
+    > It's a way of breaking down parts into small pieces and showing 
+    what users will have access to and show decisions that they have. 
 
 -------
 

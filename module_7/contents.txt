@@ -18,3 +18,5 @@
     > Project Seven: Design a Marketing Automation System (diagrams)
 
 # react directory:
+    > React Architecture Overview 
+    > How to Generate a React Project with the Project Builder Module
