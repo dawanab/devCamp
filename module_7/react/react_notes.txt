@@ -1,7 +1,56 @@
-Reach Architecture Overview ------------------------------------------------>
+# Reach Architecture Overview ------------------------------------------------>
     > React - a lightweight JavaScript library for building user interfaces
     > It is component-based; it organizes code bases based on components
 
-How to Generate a React Project with the Project Builder Module ------------>
+# How to Generate a React Project with the Project Builder Module ------------>
     > install the npm: 'npm install devcamp-js-builder -g'
         * https://www.npmjs.com/package/devcamp-js-builder
+
+# React Portfolio Creation --------------------------------------------------->
+    1. We can run js-generate in the console to bring up the JS Builder NPM 
+    2. Run: npm install once you're in the project's folder 
+    3. Run: npm run start 
+
+# Adding, Removing, and Managing Node Modules in a React Project
+    > We can manually add a package to our dependencies by typing it into
+    the dependencies column in alphabetical order, along with the version.
+
+    > After manually adding, we run npm install; npm will then go back and 
+    look at the package.json file and compare the list of dependencies with 
+    the list in node_modules directory, and install any newly added packages 
+    and add it into the system. 
+
+    > We can automatically install a dependency by typing the package's
+    npm command (eg. npm i moment)
+    > Ctrl + C - stop the server 
+
+# Analyzing the src Directory in a React Application ------------------------->
+    > All of the logic for our application goes in the src directory (react & js code)
+    > actions, reducers - gives us the ability to interact with our Redux store
+        * Redux: gives the ability to store all data in a single place and then 
+        query it and then access it 
+    > components - it's what makes up a React application; we create one component,
+    one element on the page, or one piece of functionalty and then share it 
+    across the entire application  
+    > style - it's where we place our Scss and CSS style 
+    > bootstrap.js - used as the start of the application; it's the 
+    entry point for everything that we're going to build out 
+    > vendor.js - loads up a polyfill (it fills in anything that a browser
+    is missing)
+
+# Overview of the Static Directory in a React Application -------------------->
+    > we have the assets folder which is where we store the README that tells
+    what the assets folder is for; it's where we put our static images and
+    other types of code libraries 
+    > We have the favicon and the index file in the static directory also 
+
+# Overview of Webpack's Role in React ---------------------------------------->
+    >  Wepack is a technology that is able to package up and utilize libraries
+    inside of JavaScript applications; not React specific 
+    > common.config.js - has a set of rules that the application will
+    follow for every environment.
+    > dev.config.js - the way the application works when it's working on 
+    your local machine. 
+    > prod.config.js - has the rules that the application follows 
+    when it's on a server
+    > postcss.config.js - a way that it can work with CSS files 
