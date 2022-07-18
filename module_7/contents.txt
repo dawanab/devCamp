@@ -24,4 +24,5 @@
     > Adding, Removing, and Managing Node Modules in a React Project
     > Analyzing the src Directory in a React Application
     > Overview of the Static Directory in a React Application
+    > What is Babel?
 
