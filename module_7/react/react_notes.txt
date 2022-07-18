@@ -59,3 +59,14 @@
     > When a filename ends in 'rc', it's almost always a configuration file 
     > Babel is a JavaScript compiler; it takes all of the code we write and 
     compiles it down into something that any browser is able to understand. 
+
+# How to Override Server Ports in React ----------------------------------->
+    > While inside of the env.js file, we can use the devServer to override 
+    the behavior of the local server. 
+
+# Overview of the package.json File in a React Application ----------------->
+    > We can do things such as edit the name and description, dependencies, 
+    and scripts of the project.
+
+# Difference Between package.json and package-lock.json Files in React ------>
+    > 
