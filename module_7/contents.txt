@@ -22,7 +22,13 @@
     > How to Generate a React Project with the Project Builder Module
     > React Portfolio Creation 
     > Adding, Removing, and Managing Node Modules in a React Project
-    > Analyzing the src Directory in a React Application
-    > Overview of the Static Directory in a React Application
+    > Analyzing the directories in a React Application
     > What is Babel?
+    
+    # components_introduction directory:
+        > Introduction to React Components 
+    
+    # states_introduction directory:
+
+    # conditionals_introduction directory 
 

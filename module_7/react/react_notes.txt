@@ -69,4 +69,18 @@
     and scripts of the project.
 
 # Difference Between package.json and package-lock.json Files in React ------>
-    > 
+    > They're structured the same way, but package-lock is a much more 
+    comprehensive list of all of your dependencies and metadata associated
+    with your application. It tells you exactly what is being used in 
+    your application. It's explicit. 
+    > You should never change the package-lock file because it is automatically
+    generated for you, so everytime we run npm install, it will be updated
+    automatically. It is used as a point of reference.
+
+# Overview of Procfile, Readme, and Server JS Files -------------------------->
+    > Procfile is a tool that is used when we want to deploy to the web. It
+    will declare the type of server that we want too run. 
+    > README.md is a type of markup language and its automatically formatted.
+    > server.js is needed wehen you deploy to production; it brings in the 
+    Express server, and declaring the port where it will run on the live server.
+    It starts an insance of Express.
