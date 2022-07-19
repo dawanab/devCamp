@@ -25,8 +25,9 @@
     > Analyzing the directories in a React Application
     > What is Babel?
     
-    # components_introduction directory:
-        > Introduction to React Components 
+    > Introduction to React Components 
+    > Class vs. Functional Components in React 
+    > React Constructor Overview 
     
     # states_introduction directory:
 

@@ -93,3 +93,10 @@
         3. Call a render() statement and return some JSX
         4. Call the component from anywhere in the application
 
+# Class vs. Functional Components in React:
+    > A functional component has a lot less functionality; If you want to use
+    state, then you need to use a class-based component because it will not 
+    work inside a functinoal component
+
+# React Constructor  Overview ------------------------------------------------>
+    > 
