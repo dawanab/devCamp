@@ -84,3 +84,12 @@
     > server.js is needed wehen you deploy to production; it brings in the 
     Express server, and declaring the port where it will run on the live server.
     It starts an insance of Express.
+
+===============================================================================
+# Introduction to React Components -------------------------------------------->
+    Steps to Creating A React Projects:
+        1 Import React and Component (if you're building a component)
+        2. Create, export, define a class 
+        3. Call a render() statement and return some JSX
+        4. Call the component from anywhere in the application
+
