@@ -28,6 +28,7 @@
     > Introduction to React Components 
     > Class vs. Functional Components in React 
     > React Constructor Overview 
+    > Custom Functions and Using Map to Loop Over Data
     
     # states_introduction directory:
 

@@ -98,5 +98,7 @@
     state, then you need to use a class-based component because it will not 
     work inside a functinoal component
 
-# React Constructor  Overview ------------------------------------------------>
-    > 
+# React Constructor Overview ------------------------------------------------>
+    > A constructor gives you the ability to set up some processes automatically.
+    > You can set an initial state for youor component and then list any custom
+    functions that you want to use. 
