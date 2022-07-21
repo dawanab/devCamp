@@ -102,3 +102,11 @@
     > A constructor gives you the ability to set up some processes automatically.
     > You can set an initial state for youor component and then list any custom
     functions that you want to use. 
+
+# Overview of Props --------------------------------------------------------->
+    > props is short for properties.
+    > They are a way that you can pass data from one parent component to a 
+    child component.
+
+# How JSX Works in React ---------------------->
+    > 

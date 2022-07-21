@@ -29,6 +29,8 @@
     > Class vs. Functional Components in React 
     > React Constructor Overview 
     > Custom Functions and Using Map to Loop Over Data
+    > Overview of Props in React 
+    > How JSX Works in React 
     
     # states_introduction directory:
 
