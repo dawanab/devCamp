@@ -14,3 +14,29 @@
 
     > State gives you the ability to track users' behavior as they navigate
     through the system, and also keeps track of different values. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**** Extras
+React Skeleton Fix
+The React Skeleton's webpack has an error. 
+In the package.json file, change the webpack-cli version to 3.3.1 
+and run the following command to install two npm packages:
+ > npm i babel-preset-es2015 babel-preset-stage-1
