@@ -31,8 +31,7 @@
     > Custom Functions and Using Map to Loop Over Data
     > Overview of Props in React 
     > How JSX Works in React 
+    > Intro to Working with State in React
     
-    # states_introduction directory:
-
-    # conditionals_introduction directory 
+   
 

@@ -1,0 +1,16 @@
+# Deep Dive: Props, State, and this - Part 1 ------------------------------>
+    > Part of the reason why React is so popular, is because it follows a 
+    component base design pattern. That design pattern means that instead
+    of thinking of an entire program as one giant system, you instead think 
+    of it as a series of connected components.
+
+    > A functional component is what's called a 'dumb' component because 
+    it doesnt not have a lot of behavior. It should not have state. It simply
+    just renders a component. 
+
+    > If you have a component that needs to have state, then you want to 
+    use a class-based component. That's where you can use methods and 
+    manage state. It simply has more advanced behavior. 
+
+    > State gives you the ability to track users' behavior as they navigate
+    through the system, and also keeps track of different values. 
