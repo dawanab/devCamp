@@ -15,6 +15,9 @@
     > State gives you the ability to track users' behavior as they navigate
     through the system, and also keeps track of different values. 
 
+# Deep Dive: Props, State, and this - Part 2 ------------------------------->
+    > 
+
 
 
 
