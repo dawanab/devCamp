@@ -16,27 +16,32 @@ export default class JournalList extends Component {
 
         this.state = {
             journalData: rawJournalData,
-            greeting: "Hi there",
+            // greeting: "Hi there",
             isOpen: true 
         };
-    }
 
-    clearEntries = () => {
-        this.setState({ journalData: [], isOpen: false });
-    };
+        // Putting these 3 methods in the constructir b/c arrow functions can
+        // be done in any class method, byt not inside class declaration. Needs
+        // to be in the constructor 
+        this.clearEntries = () => {
+            this.setState({ journalData: [], isOpen: false });
+        };
 
-    showAllEntries = () => {
-        this.setState({ journalData: rawJournalData, isOpen: true });
-    };
+        this.showAllEntries = () => {
+            this.setState({ journalData: rawJournalData, isOpen: true });
+        };
 
-    toggleStatus = () => {
+        this.toggleStatus = () => {
         if (this.state.isOpen) {
             this.setState({ journalData: [], isOpen: false})
         } else {
             this.setState({ journalData: [], isOpen: true})
         }
     }
+    
+    }
 
+        
     render() {
         const journalEntries = this.state.journalData.map(journalEntry => {
             return (
@@ -53,7 +58,6 @@ export default class JournalList extends Component {
             <div>
                 <h2>{this.props.heading}</h2>
                 { journalEntries }
-
                 <button onClick={this.clearEntries}>Clear Journal Entries</button>
                 <button onClick={this.showAllEntries}>Show All Entries</button>
                 <button onClick={this.toggleStatus}>Toggle Entries</button>
