@@ -1,0 +1,21 @@
+Module 8 --- still on portfolio, so still contained in module 7
+
+# react directory cont...:
+    > Using the Debugger to Extract API Key Names
+    > Render Images in React from an API
+    > Create a Main Scss File to Import and Organize Styles in React
+    > Use Custom Fonts in React
+    > Use Inline Styles to Render Background Images
+    > Overlaying Text and Images on a Background Image 
+    > Updating Styles with React Event Listeners 
+    > Using Mixins to Create Button Styles 
+
+    > Overview of Authentication Behavior 
+    > Import Static Images in React 
+    > Intro to React Forms 
+    > Overview of React's Form Submit Handler
+    > Create an Authentication Session in React
+    > Handling Sign-in Error in React 
+    > Deep Dive: Authentication 
+
+    > Introduction to Render Props in React

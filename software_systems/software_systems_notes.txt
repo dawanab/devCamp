@@ -1,0 +1,146 @@
+# Overview of Software Systems:
+    > Anytime you have an application that users interact with, that is 
+    a high-level system.
+    > Low-level systems are the types of software that an end-user usually
+    does not interact with.
+
+===========================================================================
+# Project One: Design Twitter System:
+    > Structural diagram used: class; allows us to set up our database
+    associations and list out all of the attributes, method names, etc.
+    > Behaviorial diagram used: use-case; they're great at visualizing
+    the types of authorizations that users have
+
+    > Class Diagram Requirements: User, Tweet, Retweet, Preference, 
+    Security, Message, Hashtag, Reply, Like, Location, Image, Users 
+    following other users 
+    > Use-Case Requirements: Actors: User and Follower, Posting tweets, 
+    Retweets and Likes, Optional features: (eg.images to post)
+
+===========================================================================
+# Project Two: Design an Ecommerce Application:
+    > Structural diagram requirement: class and activity 
+    
+    > Class Diagram Requirements: User, Address, City, Country, Cart, 
+    CartItem, Inventory, InventoryItem, InventoryOption, Taxonomy (Category),
+    Relationship between inventory and taxonomy, Payment, CreditCard, 
+    PayPal, PaymentStatus, Order, OrderStatus, OrderItem
+    > Activities Requirements: Search, View based on categories, 
+    Viewing products, Customizing products (update, qty, style, etc.),
+    Add to cart, User registration, View cart, Update cart, Checkout, 
+    Payment (include validation points throughout the process)
+
+===========================================================================
+# Project Three: Model a Phone Parser Code Library:
+    > Structural Design Requirements: package 
+    > Behaviorial Design Requirements: sequence diagram; focuses on the
+    messages that are sent between systems, or sent internally
+
+    > Package Diagram Requirements: Phone parser, Country codes
+    > Sequence Diagram Requirements: Participants: Digit length
+    validator, Country code validator, Start point: receives data, 
+    Endpoint: returns parsed phone number, Key messages: parsing and 
+    validations 
+
+===========================================================================
+# Project Four: Design an Enterprise Fleet Management System:
+    > Behaviorial Design Requirements: activity 
+    > Structural Design Requirements: package, deployment, class
+
+    > Activity Diagram Requirements: Maintenance activities (8-12 activities),
+    Start point: maintenance inquiry, Endpoint: maintenance complete 
+        > example action items: technical diagnosis, assign service member, 
+        order parts 
+
+    > Package Diagram Requirements (allows us to model out the main modules
+    that the system's going to need, and model the different operations 
+    associated with each of them): Fleet management modules, operations, 
+    dependencies
+        > Modules: personnel, vehicles, parts, maintenance, partners
+
+    > Deployment Diagram Requirements: Load balancer, Application servers, 
+    Database clusters, Caching 
+
+    > Class Diagram Requirements: Vehicle, CarModel, CarBrand, Dealer, 
+    ProductionFacility, Technician, Role, Maintenance, MaintenanceType, 
+    ServiceCenter, Service, ServiceList, MaintenancePart, Part,
+    Vendor, Assembly
+
+===========================================================================
+# Project Five: Design the Uber Ride Sharing System:
+    > Behaviorial Design Requirements: activity, use-case 
+    > Structural Diagram Requirements: package, deployment
+
+    > Activity Diagram Requirements: Car ordering service process(8-12)
+        > ex activities: setting destination, taking a car, sharing 
+        trip details
+        > ex branching logic: is the trip possible, share payment with others
+
+    > Use Case Diagram Requirements: mobile app and dependencies
+        > actors: Passenger, Driver, System
+        > use cases: Search for trip details, Request ride, Cancel ride, 
+        Book ride, Share trip details, Rate rides, Update payment information,
+        Leave trip 
+
+    > Package Diagram Requirements: mobile app modules and dependencies
+        > main modules: User, trip
+        > submodules: Authentication, Booking, Payment
+        > nested modules: Single payment, Shared payment 
+
+    > Deployment Diagram Requirements: android deployment process with 
+    dependencies (3-4 nodes)
+        > API, Smartphone device, Android app 
+
+===========================================================================
+# Project Six: Model an Education Assessment System
+    > Behaviorial Design Requirements: activity, state-machine
+    > Structural Design Requirements: class, deployment
+
+    > Activity Diagram Requirements: Quiz taking process (6-12 activities)
+        > roles: Teacher, System, Student
+        > ex activities: Asking a question, Generating a question set, 
+        Approving results
+
+    > State-Machine Diagram Requirements: Question answering state management,
+        > Waiting for answer, Answer chosen, Answer confirmed, Submit status
+
+    > Class Diagram Requirements: Student, Klass, Grade, Result, 
+    Teacher, User, Quiz, Question, Essay, Multiple Choice, Answer, 
+    Project, Practice
+
+    > Deployment Diagram Requirements: Nodes: Continuos Integration (CI)
+    server, Staging environment, Pre-production environment, Production
+    environment
+
+===========================================================================
+# Project Seven: Design a Marketing Automation System:
+    > Behavioral Design Requirements: use-case, activity, state-machine
+    > Structural Design Requirements: package, deployment, class
+
+    > Use-Case Diagram Requirements: Actors - Marketing Specialist, 
+    Lead/Customer, System, Use cases:
+        > marketing specialist - View reports, Manage Contacts, Manage forms, 
+        Send communication
+        > Lead/customer - Submit Form, Notify marketing specialist (automatic)
+        > System - Send reminders, send special offers, send 
+        communication(feeds in)
+
+    > Activity Diagram Requirements: Marketing journey flow(8-12 activities),
+        > Start point: user filling out a form
+        > end point: user purchasing 
+        > ex activities: Welcome email, delay 1 week, marketer notification
+        > ex decisions: User purchased product?, email opened?
+        > research: Fork nodes, Join nodes 
+
+    > State-Machine Diagram Requirements: Visitor, Prospect, Lead, Opportunity, 
+    Closed (won), Disqualified Prospect, Unsuccessful Lead, Lost opportunity 
+
+    > Package Diagram Requirements: Journey system (5-6 packages):
+        > Journeys, Insights/Reports, Channels and App drivers (Slack, SMS, etc)
+
+    > Deployment Diagram Requirements: Load balancer, Multiple application
+    servers, Database cluster, Email server, SMS connector, SMS provider, 
+    External CRM 
+
+    > Class Diagram Requirements: User: (Marketing Rep), Report, Form, Journey, 
+    Reminder, Message: (email, sms, externalChannel), Customer

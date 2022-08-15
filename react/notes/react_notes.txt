@@ -1,0 +1,125 @@
+# Reach Architecture Overview ------------------------------------------------>
+    > React - a lightweight JavaScript library for building user interfaces
+    > It is component-based; it organizes code bases based on components
+
+# How to Generate a React Project with the Project Builder Module ------------>
+    > install the npm: 'npm install devcamp-js-builder -g'
+        * https://www.npmjs.com/package/devcamp-js-builder
+
+# React Portfolio Creation --------------------------------------------------->
+    1. We can run js-generate in the console to bring up the JS Builder NPM 
+    2. Run: npm install once you're in the project's folder 
+    3. Run: npm run start 
+
+# Adding, Removing, and Managing Node Modules in a React Project
+    > We can manually add a package to our dependencies by typing it into
+    the dependencies column in alphabetical order, along with the version.
+
+    > After manually adding, we run npm install; npm will then go back and 
+    look at the package.json file and compare the list of dependencies with 
+    the list in node_modules directory, and install any newly added packages 
+    and add it into the system. 
+
+    > We can automatically install a dependency by typing the package's
+    npm command (eg. npm i moment)
+    > Ctrl + C - stop the server 
+
+# Analyzing the src Directory in a React Application ------------------------->
+    > All of the logic for our application goes in the src directory (react & js code)
+    > actions, reducers - gives us the ability to interact with our Redux store
+        * Redux: gives the ability to store all data in a single place and then 
+        query it and then access it 
+    > components - it's what makes up a React application; we create one component,
+    one element on the page, or one piece of functionalty and then share it 
+    across the entire application  
+    > style - it's where we place our Scss and CSS style 
+    > bootstrap.js - used as the start of the application; it's the 
+    entry point for everything that we're going to build out 
+    > vendor.js - loads up a polyfill (it fills in anything that a browser
+    is missing)
+
+# Overview of the Static Directory in a React Application -------------------->
+    > we have the assets folder which is where we store the README that tells
+    what the assets folder is for; it's where we put our static images and
+    other types of code libraries 
+    > We have the favicon and the index file in the static directory also 
+
+# Overview of Webpack's Role in React ---------------------------------------->
+    >  Wepack is a technology that is able to package up and utilize libraries
+    inside of JavaScript applications; not React specific 
+    > common.config.js - has a set of rules that the application will
+    follow for every environment.
+    > dev.config.js - the way the application works when it's working on 
+    your local machine. 
+    > prod.config.js - has the rules that the application follows 
+    when it's on a server
+    > postcss.config.js - a way that it can work with CSS files 
+
+# What is Babel? ------------------------------------------------------------->
+    > When a filename ends in 'rc', it's almost always a configuration file 
+    > Babel is a JavaScript compiler; it takes all of the code we write and 
+    compiles it down into something that any browser is able to understand. 
+
+# How to Override Server Ports in React ----------------------------------->
+    > While inside of the env.js file, we can use the devServer to override 
+    the behavior of the local server. 
+
+# Overview of the package.json File in a React Application ----------------->
+    > We can do things such as edit the name and description, dependencies, 
+    and scripts of the project.
+
+# Difference Between package.json and package-lock.json Files in React ------>
+    > They're structured the same way, but package-lock is a much more 
+    comprehensive list of all of your dependencies and metadata associated
+    with your application. It tells you exactly what is being used in 
+    your application. It's explicit. 
+    > You should never change the package-lock file because it is automatically
+    generated for you, so everytime we run npm install, it will be updated
+    automatically. It is used as a point of reference.
+
+# Overview of Procfile, Readme, and Server JS Files -------------------------->
+    > Procfile is a tool that is used when we want to deploy to the web. It
+    will declare the type of server that we want too run. 
+    > README.md is a type of markup language and its automatically formatted.
+    > server.js is needed wehen you deploy to production; it brings in the 
+    Express server, and declaring the port where it will run on the live server.
+    It starts an insance of Express.
+
+===============================================================================
+# Introduction to React Components -------------------------------------------->
+    Steps to Creating A React Projects:
+        1 Import React and Component (if you're building a component)
+        2. Create, export, define a class 
+        3. Call a render() statement and return some JSX
+        4. Call the component from anywhere in the application
+
+# Class vs. Functional Components in React:
+    > A functional component has a lot less functionality; If you want to use
+    state, then you need to use a class-based component because it will not 
+    work inside a functinoal component
+
+# React Constructor Overview ------------------------------------------------>
+    > A constructor gives you the ability to set up some processes automatically.
+    > You can set an initial state for youor component and then list any custom
+    functions that you want to use. 
+
+# Overview of Props --------------------------------------------------------->
+    > props is short for properties.
+    > They are a way that you can pass data from one parent component to a 
+    child component.
+
+# Intro to Working with State in React ---------------------->
+    > State is the state of your component.
+    > As long as it's a class component, your component has the ability to 
+    manage its own state, and that's usually related to data in some form 
+    or another. 
+    > Whenever you add 'this.state = ' into your constructor function, that is
+    called initial state because it is the state that your component is going 
+    to automatically get whenever it is called. 
+    >To work with state in React, you create a class component. Then you create
+    an initial state where you list off what type of values you want to start
+    off with and then to access that, to get the state, you just call this.state
+    and then whatever the name of that particular property is. 
+
+
+    

@@ -1,0 +1,53 @@
+#uml directory :
+    > Overview of UML Use Case Diagram
+    > Overview of UML Deployment Diagram
+    > Overview of UML Package Diagram
+    > Overview of UML Sequence Diagram
+    > Overview of UML State Machine Diagram
+
+#software_systems directory: 
+    > The Importance of Systems Analysis & Design for Solving Real 
+    World Software Problems 
+    > Overview of Software System 
+    > Project One: Design Twitter System (diagrams)
+    > Project Two: Design an Ecommerce application (diagrams)
+    > Project Three: Model a Phone Parser Code Library (diagrams)
+    > Project Four: Design an Enterprise Fleet Management System (diagrams)
+    > Project Five: Design the Uber Ride Sharing System (diagrams)
+    > Project Six: Model an Education Assessment System (diagrams)
+    > Project Seven: Design a Marketing Automation System (diagrams)
+
+# react directory:
+    > React Architecture Overview 
+    > How to Generate a React Project with the Project Builder Module
+    > React Portfolio Creation 
+    > Adding, Removing, and Managing Node Modules in a React Project
+    > Analyzing the directories in a React Application
+    > What is Babel?
+    
+    > Introduction to React Components 
+    > Class vs. Functional Components in React 
+    > React Constructor Overview 
+    > Custom Functions and Using Map to Loop Over Data
+    > Overview of Props in React 
+    > How JSX Works in React 
+    > Intro to Working with State
+    > Deep Dive: Props, State, and this
+    > Deep Dive: Component Lifecycle
+    > How to Change State Values 
+    > How to Build a Data Filter 
+
+    > Introduction to React Conditionals 
+    > How to Use Ternary Operators in JSX Code to Implement Conditional Behavior
+    > Basic Route Setup in React
+    > Overview of React Router NavLinks 
+    > Overview of the Link Component in React
+    > How to Access URL Values
+    > Implementing a Catch All Route with React Router
+    > Install Axios in React to Communicate with APIs. 
+    > How to Render API Data in React 
+    > How and Why to Use the Key Prop 
+    > Using the Debugger to Extract API Key Names
+    
+   
+

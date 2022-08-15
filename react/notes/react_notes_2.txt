@@ -1,0 +1,8 @@
+Module 8
+
+> After using the debugger in our code, we can go to the Developer Tools 
+console. To get the keys, we type Object.keys(object) and it will return
+only the keys. 
+
+> Anytime you have a hard-coded image that you want to place into your 
+app, place it in the assets directory. 
