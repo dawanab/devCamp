@@ -33,19 +33,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 **** Extras
 React Skeleton Fix
 The React Skeleton's webpack has an error. 
