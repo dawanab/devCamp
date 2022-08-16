@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom' 
+import axios from 'axios';
 
 
 import PortfolioContainer from './portfolio/portfolio-container';
@@ -28,7 +29,6 @@ export default class App extends Component {
   
   }
 
- 
   handleSuccessfulLogin() {
     this.setState({
       loggedInStatus: "LOGGED_IN"
@@ -41,6 +41,10 @@ export default class App extends Component {
     });
   }
 
+  checkLoginStatus() {
+    return axios.get("https://api.devcamp.space/logged_in", { withCredentials: true });
+  }
+
 
   render() {
     return (
@@ -48,6 +52,8 @@ export default class App extends Component {
         <Router>
           <div>
             <NavigationContainer />
+
+            <h2>{this.state.loggedInStatus}</h2>
 
             <Switch>
               <Route exact path="/" component={Home} />

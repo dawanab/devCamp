@@ -19,3 +19,5 @@ Module 8 --- still on portfolio, so still contained in module 7
     > Deep Dive: Authentication 
 
     > Introduction to Render Props in React
+    > Updating a Parent Component's State from a Child Component 
+    > Automatically Checking if a User is Logged In
