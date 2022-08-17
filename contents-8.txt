@@ -26,3 +26,5 @@ Module 8 --- still on portfolio, so still contained in module 7
     > Building a Route Guard 
     > Implement a Logout Handler in the App Component w/ Higher Order Component
     
+    > Portfolio Manager Feature Overview 
+    
