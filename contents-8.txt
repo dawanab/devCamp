@@ -28,5 +28,7 @@ Module 8 --- still on portfolio, so still contained in module 7
 
     > Portfolio Manager Feature Overview 
     > Building a Secure Class Component 
-    > Portfolio Manager Grid Layout Implementation 
+    > Portfolio Manager Grid Layout Implementation (double check.. sidebar not colored in grey)
+    > Populating the Portfolio Manager State with API Call Data
+    > Building the Portfolio Sidebar List Component
     
