@@ -9,7 +9,7 @@ export default class PortfolioForm extends  Component {
         this.state = {
             name: "",
             description: "",
-            category: "",
+            category: "eCommerce",
             position: "",
             url: "",
             thumb_image: "",
@@ -46,7 +46,7 @@ export default class PortfolioForm extends  Component {
             this.buildForm(), 
             { withCredentials: true }
         ).then(response => {
-            console.log("response", response)
+            this.props.handleSuccessfulFormSubmission(response.data.portfolio_item);
         }).catch(error => {
             console.log("portfolio form handleSubmit error", error);
         });
@@ -73,7 +73,8 @@ export default class PortfolioForm extends  Component {
                             name="url"
                             placeholder="URL"
                             value={this.state.url}
-                            onChange={this.handleChange} />
+                            onChange={this.handleChange} 
+                        />
                     </div>
 
                     <div>
@@ -82,18 +83,23 @@ export default class PortfolioForm extends  Component {
                             name="position"
                             placeholder="Position"
                             value={this.state.position}
-                            onChange={this.handleChange} />
+                            onChange={this.handleChange} 
+                        />
 
-                        <input
-                            type="text"
+                        <select
                             name="category"
                             placeholder="Category"
                             value={this.state.category}
-                            onChange={this.handleChange} />
+                            onChange={this.handleChange} 
+                        >
+                            <option value="eCommerce">eCommerce</option>
+                            <option value="Scheduling">Scheduling</option>
+                            <option value="Enterprise">Enterprise</option>
+                            </select>
                     </div>
 
                     <div>
-                        <input
+                        <textarea
                             type="text"
                             name="description"
                             placeholder="Description"

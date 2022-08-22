@@ -17,22 +17,22 @@ export default class PortfolioManager extends Component {
     }
 
     handleSuccessfulFormSubmission(portfolioItem) {
-        // TODO:
-        // update portfolioItems state
-        // add the portfolioItem to the list 
+        this.setState({
+            portfolioItems: [portfolioItem].concat(this.state.portfolioItems)
+        });
     }
 
     handleFormSubmissionError(error) {
-        console.log("handleFormSubmissionError error", error)
+        console.log("handleFormSubmissionError error", error);
     }
 
     getPortfolioItems() {
-        axios.get("https://bakerdawana.devcamp.space/portfolio/portfolio_items",
+        axios.get("https://bakerdawana.devcamp.space/portfolio/portfolio_items?order_by=created_at&direction=desc",
          { withCredentials: true}
          ).then(response => {
             this.setState({
                 portfolioItems: [...response.data.portfolio_items]
-            })
+            });
          }).catch(error => {
             console.log("error in portfolio items");
          })

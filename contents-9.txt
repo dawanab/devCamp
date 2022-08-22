@@ -1,0 +1,8 @@
+Module 9 --- still on portfolio, so still contained in module 7
+
+# react directory cont...:
+    > Guide to Select Dropdowns in React
+    > Guide to the Textarea Tag in React
+    > Implementing a Base State Value for a React Select Tag
+    > Populating Parent Component Data in React
+    > Installing React Dropzone Component and Performing a Security Audit Fix
