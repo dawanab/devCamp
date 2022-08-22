@@ -33,4 +33,9 @@ Module 8 --- still on portfolio, so still contained in module 7
     > Building the Portfolio Sidebar List Component
     > Creating the Portfolio Form and Calling it from the Parent Component
     > Building the Initial Portfolio Form Elements
+    > Implementing Portfolio Form Handlers
+
+    > Introduction to Building JavaScript FormData Objects
+    > Fixing Multiple Key Prop Warnings in React
+    > Creating Portfolio Items from React Form
     
