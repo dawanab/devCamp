@@ -9,6 +9,9 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Integrating React Dropzone Component into the Portfolio Form 🔴 (review this)
     > Uploading Thumbnail Images to the API in React
     > Adding the Banner and Logo Image Uploaders
+
+    > Overview of React Refs to Clear the Form and Image Uploaders
+    > Creating a Form Input Mixin
    
 
 
