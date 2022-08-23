@@ -6,7 +6,10 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Implementing a Base State Value for a React Select Tag
     > Populating Parent Component Data in React
     > Installing React Dropzone Component and Performing a Security Audit Fix
-    > Integrating React Dropzone Component into the Portfolio Form
+    > Integrating React Dropzone Component into the Portfolio Form 🔴 (review this)
+    > Uploading Thumbnail Images to the API in React
+    > Adding the Banner and Logo Image Uploaders
+   
 
 
 
