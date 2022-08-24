@@ -1,8 +1,8 @@
 Module 9 --- still on portfolio, so still contained in module 7
 
 # react directory cont...:
-    > Guide to Select Dropdowns in React
-    > Guide to the Textarea Tag in React
+    > Select Dropdowns in React
+    > Textarea Tag in React
     > Implementing a Base State Value for a React Select Tag
     > Populating Parent Component Data in React
     > Installing React Dropzone Component and Performing a Security Audit Fix
@@ -10,12 +10,15 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Uploading Thumbnail Images to the API in React
     > Adding the Banner and Logo Image Uploaders
 
-    > Overview of React Refs to Clear the Form and Image Uploaders
+    > React Refs to Clear the Form and Image Uploaders
     > Creating a Form Input Mixin
-    > How to Implement Custom Select and Textarea Styles
+    > Implement Custom Select and Textarea Styles
     > Building CSS Grid Styles for the Portfolio Form
     > Updating the Dropzone Labels with Child Components to Finalize the Form 🔴 (btn does not have hover effect)
     > Building a Delete Click Handler in React
+    > Delete API Data in React and Update State
+    > Installing and Configuring Font Awesome in React
+    > Style Font Awesome Icons in React
 
 
 
@@ -29,6 +32,5 @@ Module 9 --- still on portfolio, so still contained in module 7
 
 
 Technologies:
-    1. Dropzone
-    2. react-dropzone-component (npm)
+    1. Dropzone : react-dropzone-component (npm)
     
