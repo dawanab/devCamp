@@ -14,6 +14,7 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Creating a Form Input Mixin
     > How to Implement Custom Select and Textarea Styles
     > Building CSS Grid Styles for the Portfolio Form
+    > Updating the Dropzone Labels with Child Components to Finalize the Form
 
 
 
