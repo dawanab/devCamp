@@ -21,6 +21,7 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Style Font Awesome Icons in React
     > Building an Edit Click Handler in React (CRUD - create, read, update, delete)
     > Making Dynamic Axios API Queries in React
+    > Working with New and Edit Workflows 🔴
 
 
 
