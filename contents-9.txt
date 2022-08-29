@@ -21,8 +21,11 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Style Font Awesome Icons in React
     > Building an Edit Click Handler in React (CRUD - create, read, update, delete)
     > Making Dynamic Axios API Queries in React
-    > Working with New and Edit Workflows 🔴
-
+    > Working with New and Edit Workflows 
+    > Multiline Ternary Operators for Showing and Hiding the Dropzone Components
+    > Populating Image Thumbnail Conditionals and Styles
+    > Adding Delete Image Links to the Image Thumbnails
+    
 
 
 
