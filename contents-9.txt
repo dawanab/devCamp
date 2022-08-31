@@ -29,6 +29,7 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Overview of the Blog Features 
     > Converting the Functional Blog Component into a Class Component
     > Calling the Blog API and Storing the Data in State
+    > Rendering Blog Records to the Screen
 
 
 
