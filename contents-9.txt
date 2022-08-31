@@ -26,6 +26,9 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Populating Image Thumbnail Conditionals and Styles
     > Adding Delete Image Links to the Image Thumbnails
     
+    > Overview of the Blog Features 
+    > Converting the Functional Blog Component into a Class Component
+    > Calling the Blog API and Storing the Data in State
 
 
 
