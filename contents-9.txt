@@ -31,7 +31,9 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Calling the Blog API and Storing the Data in State
     > Rendering Blog Records to the Screen
     > Creating a Dedicated Blog Item Component
-        >>> anytime you're iterating over any record, you need a key attribute 
+    > Building the Initial Blog Detail Component
+  
+    
 
 
 

@@ -28,6 +28,9 @@
     3. Unmounting - Called when a component is being removed from the DOM. 
 
 
+> anytime you're iterating over any record, you need a key attribute 
+
+
 
 
 
