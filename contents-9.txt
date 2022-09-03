@@ -33,6 +33,10 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Creating a Dedicated Blog Item Component
     > Building the Initial Blog Detail Component
     > Calling a Single Blog Item from the API in React
+    > Rendering the Blog Details to the Screen
+    > Applying Styles to the Blog Detail Component
+    > Applying Styles to the Blog Index Component
+    > Building a JavaScript Event Listener for Scroll Events
   
     
 
