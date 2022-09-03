@@ -32,6 +32,7 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Rendering Blog Records to the Screen
     > Creating a Dedicated Blog Item Component
     > Building the Initial Blog Detail Component
+    > Calling a Single Blog Item from the API in React
   
     
 
