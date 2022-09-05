@@ -38,7 +38,8 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Applying Styles to the Blog Index Component
     > Building a JavaScript Event Listener for Scroll Events
     > Deep Dive: innerHeight, scrollTop, and offsetHeight
-    
+    > Getting the Count of Total Records on the Server and Updating the Component State
+    > Implementing an Animated Data Loading Icon in React
 
 
 
