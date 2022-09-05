@@ -6,3 +6,9 @@ only the keys.
 
 > Anytime you have a hard-coded image that you want to place into your 
 app, place it in the assets directory. 
+
+======================================
+Module 9
+> A modal is a message box that is displayed on top of your screen. 
+> Modals put an overlay on the screen; therefore, they take visual precedence 
+over all the other elements.

@@ -43,6 +43,8 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Building the Full Infinite Scroll Functionality in React 🔴
     > Refactoring the Infinite Scroll Feature to Fix Memory Leak
     > Installing the React Modal Library
+    > Rendering the React Modal in the Blog Component
+    > Triggering the React Modal to Open with a Link Click
 
 
 
@@ -60,4 +62,5 @@ Module 9 --- still on portfolio, so still contained in module 7
 
 Technologies:
     1. Dropzone : react-dropzone-component (npm)
+    2. React Modal: npm install --save react-modal
     
