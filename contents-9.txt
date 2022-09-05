@@ -37,7 +37,7 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Applying Styles to the Blog Detail Component
     > Applying Styles to the Blog Index Component
     > Building a JavaScript Event Listener for Scroll Events
-  
+    > Deep Dive: innerHeight, scrollTop, and offsetHeight
     
 
 
