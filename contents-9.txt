@@ -40,7 +40,8 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Deep Dive: innerHeight, scrollTop, and offsetHeight
     > Getting the Count of Total Records on the Server and Updating the Component State
     > Implementing an Animated Data Loading Icon in React
-    > Building the Full Infinite Scroll Functionality in React
+    > Building the Full Infinite Scroll Functionality in React 🔴
+    > 
 
 
 
