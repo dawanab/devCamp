@@ -50,6 +50,8 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Creating the Initial Blog Form Component
     > Building the Blog Form Event Handlers
     > Creating Blog Posts via the API
+    > Building the Full Blog Creation Workflow 🟡
+    > Applying Blog Form Styles
 
 
 

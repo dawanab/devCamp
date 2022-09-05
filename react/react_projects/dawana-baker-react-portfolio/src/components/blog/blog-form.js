@@ -8,7 +8,7 @@ export default class BlogForm extends Component {
         this.state = {
             title: "",
             blog_status: ""
-        }
+        };
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -26,12 +26,16 @@ export default class BlogForm extends Component {
                     this.buildForm(),
                     { withCredentials: true }
                 ).then(response => {
-                    this.props.handleSuccessfulFormSubmission(response.data);
+                    this.props.handleSuccessfulFormSubmission(response.data.portfolio_blog);
+                    this.setState({
+                        title: "",
+                        blog_status: ""
+                    });
                 }).catch(error => {
                     console.log("handleSubmit for blog error", error);
                 });
 
-        this.props.handleSuccessfulFormSubmission(this.state);
+        // this.props.handleSuccessfulFormSubmission(this.state);
         event.preventDefault();
     }
 
@@ -40,6 +44,8 @@ export default class BlogForm extends Component {
             [event.target.name]: event.target.value
         });
     }
+
+    
 
     render() {
         return(
@@ -62,6 +68,6 @@ export default class BlogForm extends Component {
 
                 <button>Save</button>
             </form>
-        )
+        );
     }
 }
