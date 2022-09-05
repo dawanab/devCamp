@@ -45,6 +45,7 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Installing the React Modal Library
     > Rendering the React Modal in the Blog Component
     > Triggering the React Modal to Open with a Link Click
+    > How to Close the React Modal
 
 
 
