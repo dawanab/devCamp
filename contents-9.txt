@@ -41,7 +41,8 @@ Module 9 --- still on portfolio, so still contained in module 7
     > Getting the Count of Total Records on the Server and Updating the Component State
     > Implementing an Animated Data Loading Icon in React
     > Building the Full Infinite Scroll Functionality in React 🔴
-    > 
+    > Refactoring the Infinite Scroll Feature to Fix Memory Leak
+    > Installing the React Modal Library
 
 
 
