@@ -2,3 +2,5 @@ Module 10 --- still on portfolio, so still contained in module 7
 
 # react directory cont...:
     > Building the Styles for the New Blog Icon with a Fixed Position on the Page
+    > Render Props and Passing the Logged In Status to Child Components
+    > Building a Dedicated Icon Helper File in React
