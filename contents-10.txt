@@ -6,3 +6,4 @@ Module 10 --- still on portfolio, so still contained in module 7
     > Building a Dedicated Icon Helper File in React
     > Installing Draft JS Dependencies for Rich Text Editing in React
     > Rendering Draft JS Form Component and Building Rich Text Editor Styles
+    > Updating the Blog Form to Handle Rich Text Editor State Changes
