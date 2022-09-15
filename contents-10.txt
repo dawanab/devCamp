@@ -7,3 +7,4 @@ Module 10 --- still on portfolio, so still contained in module 7
     > Installing Draft JS Dependencies for Rich Text Editing in React
     > Rendering Draft JS Form Component and Building Rich Text Editor Styles
     > Updating the Blog Form to Handle Rich Text Editor State Changes
+    > Retrieving HTML Content from Draft JS Component
