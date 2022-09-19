@@ -1,6 +1,6 @@
 Module 10 --- still on portfolio, so still contained in module 7
 
-EXTRAS: ----------> got to blog-form.js and check handleSubmit(). Submit not working
+EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not working
 
 # react directory cont...:
     > Building the Styles for the New Blog Icon with a Fixed Position on the Page
@@ -13,3 +13,5 @@ EXTRAS: ----------> got to blog-form.js and check handleSubmit(). Submit not wor
     > Fixing Set State on an Unmounted Component Warning in React
     > Installing React HTML Parser and Generating Sample Content
     > Parsing HTML in React and Rendering to the Blog Detail Page
+    > Installing Striptags and Truncate Component in React
+    > Removing HTML Tags and Generating Summaries for Blogs
