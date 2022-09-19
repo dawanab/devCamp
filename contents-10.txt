@@ -1,5 +1,7 @@
 Module 10 --- still on portfolio, so still contained in module 7
 
+EXTRAS: ----------> got to blog-form.js and check handleSubmit(). Submit not working
+
 # react directory cont...:
     > Building the Styles for the New Blog Icon with a Fixed Position on the Page
     > Render Props and Passing the Logged In Status to Child Components
@@ -10,3 +12,4 @@ Module 10 --- still on portfolio, so still contained in module 7
     > Retrieving HTML Content from Draft JS Component
     > Fixing Set State on an Unmounted Component Warning in React
     > Installing React HTML Parser and Generating Sample Content
+    > Parsing HTML in React and Rendering to the Blog Detail Page
