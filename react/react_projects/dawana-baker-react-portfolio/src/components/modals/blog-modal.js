@@ -31,14 +31,17 @@ export default class BlogModal extends Component {
     }
 
     render() {
-        return(
+        return (
             <ReactModal 
             style={this.customStyles}
             onRequestClose={() => {
                 this.props.handleModalClose();
             }} 
-            isOpen={this.props.modalIsOpen}>
-                <BlogForm handleSuccessfulFormSubmission={this.handleSuccessfulFormSubmission} />
+            isOpen={this.props.modalIsOpen}
+            >
+                <BlogForm 
+                handleSuccessfulFormSubmission={this.handleSuccessfulFormSubmission} 
+                />
             </ReactModal>
         );
     }

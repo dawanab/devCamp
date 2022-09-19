@@ -8,3 +8,5 @@ Module 10 --- still on portfolio, so still contained in module 7
     > Rendering Draft JS Form Component and Building Rich Text Editor Styles
     > Updating the Blog Form to Handle Rich Text Editor State Changes
     > Retrieving HTML Content from Draft JS Component
+    > Fixing Set State on an Unmounted Component Warning in React
+    > Installing React HTML Parser and Generating Sample Content

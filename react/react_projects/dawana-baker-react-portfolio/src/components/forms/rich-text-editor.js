@@ -25,12 +25,12 @@ export default class RichTextEditor extends Component {
 	}
 
 	render() {
-		return(
+		return (
 			<div>
 				<Editor
 					editorState={this.state.editorState}
 					wrapperClassName="demo-wrapper"
-					editorClassName="demo-editor"
+					editorClassname="demo-editor"
 					onEditorStateChange={this.onEditorStateChange}
 				/>
 			</div>

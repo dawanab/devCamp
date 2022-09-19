@@ -96,7 +96,7 @@ export default class PortfolioForm extends Component {
         };
     }
 
-    handleLogoDrop(){
+    handleLogoDrop() {
         return {
             addedfile: file => this.setState({ logo: file })
         };
@@ -285,9 +285,7 @@ export default class PortfolioForm extends Component {
                             <img src={this.state.logo_url} />
 
                             <div className="image-removal-link">
-                                <a onClick={() => this.deleteImage("logo")}>
-                                    Remove file
-                                </a>
+                                <a onClick={() => this.deleteImage("logo")}>Remove file</a>
                             </div>
                         </div>
                      ) : (
