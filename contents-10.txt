@@ -16,3 +16,4 @@ EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not work
     > Installing Striptags and Truncate Component in React
     > Removing HTML Tags and Generating Summaries for Blogs
     > Configuring Dropzone for Blog Featured Image
+    > Adding the Ability to Upload Featured Images to Blogs
