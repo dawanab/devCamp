@@ -47,7 +47,7 @@ export default class BlogDetail extends Component {
 
 		const contentManager = () => {
 			if (this.state.editMode) {
-				return <BlogForm />
+				return <BlogForm editMode={this.state.editMode} blog={this.state.blogItem} />;
 			} else {
 				return(
 					<div className="content-container">
@@ -55,9 +55,9 @@ export default class BlogDetail extends Component {
 						<BlogFeaturedImage img={featured_image_url} />
 						<div className="content">{ReactHtmlParser(content)}</div>
 					</div>
-				)
+				);
 			}
-		}
+		};
 
 		return(
 			<div className="blog-container">{contentManager()}</div>

@@ -22,3 +22,4 @@ EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not work
     > Converting Image Files into Base64 Strings
     > Positioning Draft JS Icons
     > Adding Click Handler to Render the BlogForm Component
+    > Passing the Blog Title and Status to the Form to Edit
