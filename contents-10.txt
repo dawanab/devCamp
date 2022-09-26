@@ -20,3 +20,4 @@ EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not work
     > Finalizing the Blog Form Styles
     > Customizing the Draft JS Toolbar
     > Converting Image Files into Base64 Strings
+    > Positioning Draft JS Icons
