@@ -25,3 +25,4 @@ EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not work
     > Passing the Blog Title and Status to the Form to Edit
     > How to Programmatically Add Content to Draft JS
     > Enabling Dynamic Rendering of the Featured Image in the Blog Form
+    > Deleting Featured Blog Images via API and Updating Parent Component State
