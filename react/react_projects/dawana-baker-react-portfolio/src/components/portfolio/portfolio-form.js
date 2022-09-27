@@ -45,7 +45,7 @@ export default class PortfolioForm extends Component {
 		).then(response => {
 			this.setState({
 				[`${imageType}_url`]: ""
-			})
+			});
 		}).catch(error => {
 			console.log("error", error)
 		})
@@ -177,7 +177,7 @@ export default class PortfolioForm extends Component {
 
 			[this.thumbRef, this.bannerRef, this.logoRef].forEach(ref => {
 				ref.current.dropzone.removeAllFiles();
-			})
+			});
 		}).catch(error => {
 			console.log("portfolio form handleSubmit error", error);
 		});

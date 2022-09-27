@@ -13,7 +13,9 @@ export default class BlogForm extends Component {
 			title: "",
 			blog_status: "",
 			content: "",
-			featured_image: ""
+			featured_image: "",
+			apiUrl: "https://bakerdawana.space/portfolio/portfolio_blogs",
+			apiAction: "post"
 		};
 
 		this.handleChange = this.handleChange.bind(this);
@@ -21,7 +23,7 @@ export default class BlogForm extends Component {
 		this.handleRichTextEditorChange = this.handleRichTextEditorChange.bind(this);
 
 		this.componentConfig = this.componentConfig.bind(this);
-		this.djsconfig = this.djsconfig.bind(this);
+		this.djsConfig = this.djsConfig.bind(this);
 		this.handleFeaturedImageDrop = this.handleFeaturedImageDrop.bind(this);
 		this.deleteImage = this.deleteImage.bind(this);
 
@@ -45,7 +47,10 @@ export default class BlogForm extends Component {
 			this.setState({
 				id: this.props.blog.id,
 				title: this.props.blog.title,
-				status: this.props.blog.status
+				blog_status: this.props.blog.blog_status,
+				content: this.props.blog.content,
+				apiUrl: `https://bakerdawana.space/portfolio/portfolio_blogs/${this.props.blog.id}`,
+				apiAction: "patch"
 			});
 		}
 	}
@@ -55,62 +60,70 @@ export default class BlogForm extends Component {
 			iconFiletypes: [".jpg", ".png"],
 			showFiletypeIcon: true,
 			postUrl: "https://httpbin.org/post"
-		}
+		};
 	}
 
-	djsconfig() {
+	djsConfig() {
 		return {
 			addRemoveLinks: true,
 			maxFiles: 1
-		}
+		};
 	}
 
 	handleFeaturedImageDrop() {
 		return {
 			addedfile: file => this.setState({ featured_image: file })
-		}
+		};
 	}
 
-		handleRichTextEditorChange(content) {
-			this.setState({ content });
+	handleRichTextEditorChange(content) {
+		this.setState({ content });
+	}
+
+	buildForm() {
+		let formData = new FormData();
+
+		formData.append("portfolio_blog[title]", this.state.title);
+		formData.append("portfolio_blog[blog_status]", this.state.blog_status);
+		formData.append("portfolio_blog[content]", this.state.content);
+
+		if (this.state.featured_image) {
+			formData.append(
+				"portfolio_blog[featured_image]", 
+				this.state.featured_image
+			);
 		}
 
-		buildForm() {
-			let formData = new FormData();
+		return formData;
+	}
 
-			formData.append("portfolio_blog[title]", this.state.title);
-			formData.append("portfolio_blog[blog_status]", this.state.blog_status);
-			formData.append("portfolio_blog[content]", this.state.content);
-
+	handleSubmit(event) {
+		axios({
+			method: this.state.apiAction,
+			url: this.state.apiUrl,
+			data: this.buildForm(),
+			withCredentials: true
+		})
+		.then(response => {
 			if (this.state.featured_image) {
-				formData.append("portfolio_blog[featured_image]", this.state.featured_image);
+				this.featuredImageRef.current.dropzone.removeAllFiles();
 			}
 
-			return formData;
-		}
+			this.setState({
+				title: "",
+				blog_status: "",
+				content: "",
+				featured_image: ""
+			});
 
-		handleSubmit(event) {
-			axios
-			.post(
-				"https://bakerdawana.devcamp.space/portfolio/portfolio_blogs", 
-				this.buildForm(),
-				{ withCredentials: true }
-			)
-			.then(response => {
-				if (this.state.featured_image) {
-					this.featuredImageRef.current.dropzone.removeAllFiles();
-				}
-
-				this.setState({
-					title: "",
-					blog_status: "",
-					content: "",
-					featured_image: ""
-				});
-
+			if (this.props.editMode) {
+				// Update blog detail
+				this.props.handleUpdateFormSubmission(response.data.portfolio_blog);
+			} else {
 				this.props.handleSuccessfulFormSubmission(
 					response.data.portfolio_blog
 				);
+			}
 		})
 		.catch(error => {
 				console.log("handleSubmit for blog error", error);
@@ -119,11 +132,11 @@ export default class BlogForm extends Component {
 		event.preventDefault();
 	}
 
-		handleChange(event) {
-			this.setState({
-				[event.target.name]: event.target.value
-			});
-		}
+	handleChange(event) {
+		this.setState({
+			[event.target.name]: event.target.value
+		});
+	}
 
 	render() {
 		return (
@@ -170,13 +183,14 @@ export default class BlogForm extends Component {
 						<DropzoneComponent
 							ref={this.featuredImageRef}
 							config={this.componentConfig()}
-							djsconfig={this.djsconfig()}
+							djsConfig={this.djsConfig()}
 							eventHandlers={this.handleFeaturedImageDrop()}
 						>
 							<div className="dz-message">Featured Image</div>
 						</DropzoneComponent>
 					)}
 				</div>
+				
 				<button className="btn">Save</button>
 			</form>
 		);
