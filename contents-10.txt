@@ -29,3 +29,4 @@ EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not work
     > Communicating with Blog Update API Endpoint 🔴
     > Enabling Authorization Rules for Blog Detail Component
     > Building About Page Styles for React Portfolio
+    > Building Contact Page Styles for the React Portfolio
