@@ -27,3 +27,4 @@ EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not work
     > Enabling Dynamic Rendering of the Featured Image in the Blog Form
     > Deleting Featured Blog Images via API and Updating Parent Component State
     > Communicating with Blog Update API Endpoint 🔴
+    > Enabling Authorization Rules for Blog Detail Component
