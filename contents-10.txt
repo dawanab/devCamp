@@ -35,3 +35,4 @@ EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not work
     > Portfolio Detail Styles
     > Full Filtering Feature Build Out in React
     > Enabling the Ability to Delete Blog Posts
+    > Finalizing the Auth Form Styles
