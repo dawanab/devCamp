@@ -3,44 +3,93 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import contactPagePicture from "../../../static/assets/images/auth/login.jpg";
 
 // DELETE
-export default function() {
-  return (
-    <div className="content-page-wrapper">
-      <div
-        className="left-column"
-        style={{
-          background: "url(" + contactPagePicture + ") no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center"
-        }}
-      />
-      <div className="right-column">
-        <div className="contact-bullet-points">
-          <div className="bullet-point-group">
-            <div className="icon">
-              <FontAwesomeIcon icon="phone" />
-            </div>
+export default class PortfolioContainer extends Component {
+  constructor() {
+    super();
 
-            <div className="text">555-555-5555</div>
-          </div>
+    this.state = {
+      pageTitle: "Welcome to my portfolio",
+      isLoading: false,
+      data: []
+    };
 
-          <div className="bullet-point-group">
-            <div className="icon">
-              <FontAwesomeIcon icon="envelope" />
-            </div>
+    this.handleFilter = this.handleFilter.bind(this);
+  }
 
-            <div className="text">jordan@example.com</div>
-          </div>
+  handleFilter(filter) {
+    if (filter === "CLEAR_FILTERS") {
+      this.getPortfolioItems();
+    } else {
+      this.getPortfolioItems(filter);
+    }
+  }
 
-          <div className="bullet-point-group">
-            <div className="icon">
-              <FontAwesomeIcon icon="map-marked-alt" />
-            </div>
+  getPortfolioItems(filter = null) {
+    axios
+      .get("https://jordan.devcamp.space/portfolio/portfolio_items")
+      .then(response => {
+        if (filter) {
+          this.setState({
+            data: response.data.portfolio_items.filter(item => {
+              return item.category === filter;
+            })
+          });
+        } else {
+          this.setState({
+            data: response.data.portfolio_items
+          });
+        }
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }
 
-            <div className="text">Lehi, UT</div>
-          </div>
+  portfolioItems() {
+    return this.state.data.map(item => {
+      return <PortfolioItem key={item.id} item={item} />;
+    });
+  }
+
+  componentDidMount() {
+    this.getPortfolioItems();
+  }
+
+  render() {
+    if (this.state.isLoading) {
+      return <div>Loading...</div>;
+    }
+
+    return (
+      <div className="homepage-wrapper">
+        <div className="filter-links">
+          <button
+            className="btn"
+            onClick={() => this.handleFilter("eCommerce")}
+          >
+            eCommerce
+          </button>
+          <button
+            className="btn"
+            onClick={() => this.handleFilter("Scheduling")}
+          >
+            Scheduling
+          </button>
+          <button
+            className="btn"
+            onClick={() => this.handleFilter("Enterprise")}
+          >
+            Enterprise
+          </button>
+          <button
+            className="btn"
+            onClick={() => this.handleFilter("CLEAR_FILTERS")}
+          >
+            All
+          </button>
         </div>
+        <div className="portfolio-items-wrapper">{this.portfolioItems()}</div>
       </div>
-    </div>
-  );
+    );
+  }
 }
