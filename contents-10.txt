@@ -37,3 +37,5 @@ EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not work
     > Enabling the Ability to Delete Blog Posts
     > Finalizing the Auth Form Styles
     > Heroku Deployment for React JS Applications 🟡 (install Heroku toolbelt on Windows)
+        >>> https://dawana-react-portfolio.herokuapp.com/ 
+        >>> https://git.heroku.com/dawana-react-portfolio.git
