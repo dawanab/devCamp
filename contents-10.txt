@@ -36,3 +36,4 @@ EXTRAS: ----------> go to blog-form.js and check handleSubmit(). Submit not work
     > Full Filtering Feature Build Out in React
     > Enabling the Ability to Delete Blog Posts
     > Finalizing the Auth Form Styles
+    > Heroku Deployment for React JS Applications 🟡 (install Heroku toolbelt on Windows)
